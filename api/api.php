@@ -1,6 +1,4 @@
 <?php
-
-header("refresh:60; url=index.php");
 header("content-type: text/html; charset=utf-8");
 
 $url = "https://api.cartola.globo.com/mercado/status";
@@ -9,8 +7,6 @@ $urlMercadoPorRodada = 'https://api.cartola.globo.com/partidas/';
 $urlMaisEscalados = "https://api.cartola.globo.com/mercado/destaques";
 $urlMelhorTimePosRodada = "https://api.cartola.globo.com/pos-rodada/destaques";
 $urlMaisEscaladosReservas = 'https://api.cartola.globo.com/mercado/destaques/reservas';
-
-
 
 //url mercadostatus
 $options = array(
@@ -38,6 +34,19 @@ $options2 = array(
 $context2 = stream_context_create($options2); // Cria o contexto da requisição
 $response2 = file_get_contents($urlMaisEscalados, false, $context2); // Faz a requisição
 $MaisEscalados = json_decode($response2, true); // Decodifica o JSON
+
+// $urlMaisEscaladosReservas
+$options6 = array(
+    'http' =>
+    array(
+        'method' => 'GET',
+        'user_agent' => 'Mozilla/4.0 (compatible; MSIE 5.01; Windows NT 5.0)',
+        'timeout' => 1
+    )
+);
+$context6 = stream_context_create($options6); // Cria o contexto da requisição
+$response6 = file_get_contents($urlMaisEscaladosReservas, false, $context6); // Faz a requisição
+$MaisEscaladosReservas = json_decode($response6, true); // Decodifica o JSON
 
 
 // $urlTodasInformacoes
@@ -150,35 +159,7 @@ function MercadoFecha()
     }
 } //Fim da função MercadoFecha
 
-function MaisEscalados()
-{
 
-    global $MaisEscalados; // Variável global
-    global $TodasInformacoes; // Variável global 
-    $i = 0;
-    //exibir os 5 primeiros jogadores escalados
-    foreach ($MaisEscalados as $subArray) {
-        $foto = str_replace('FORMATO', '140x140', $subArray['Atleta']['foto']); // Retorna a foto do atleta
-
-        foreach ($TodasInformacoes['atletas'] as $todas) {
-            $info = $todas['atleta_id']; // Exibe o slug do atleta
-
-            if ($info == $subArray['Atleta']['atleta_id']) {
-                $i++;
-                while ($i <= 5) {
-                    echo '<ol class="list-group list-group-numbered-">';
-                    echo '<li class="list-group-item d-flex justify-content-between align-items-start">';
-                    echo '<div class="ms-2 me-auto">';
-                    echo '<div class="fw-bold">' . $i . ' - ' . '<img src="' . $foto . '"class="img-fluid" alt="Responsive image" width="50" height="50" align="left">' . $subArray['Atleta']['apelido'] . '</div>'  . $subArray['posicao_abreviacao'] . '-' . '<img src="' . $subArray['escudo_clube'] . '"class="img-fluid" alt="Responsive image" width="15" height="15" align="">' . '</div>';
-                    echo '<span class="badge bg-success rounded-pill">'. $subArray['escalacoes'] . ' Escalações' . '</span>';
-                    echo '</li>';
-                    echo '</ol>';
-                    break;
-                }
-            }
-        }
-    }
-} //Fim da função Mais Escalados
 
 
 function TimesRodadaHoje()
@@ -237,40 +218,3 @@ function MelhorTimePosRodada()
         break;
     }
 }
-
-function ReservasMaisEscalados()
-{
-
-    global $MaisEscaladosReservas; // Variável global
-    global $TodasInformacoes; // Variável global 
-    $i = 0;
-    //exibir os 5 primeiros jogadores escalados
-    foreach ($MaisEscaladosReservas as $ReservasMaisEscaladossubArray) {
-        $foto = str_replace('FORMATO', '140x140', $ReservasMaisEscaladossubArray['Atleta']['foto']); // Retorna a foto do atleta
-
-        foreach ($TodasInformacoes['atletas'] as $todas) {
-            $info = $todas['atleta_id']; // Exibe o slug do atleta
-
-            if ($info == $ReservasMaisEscaladossubArray['Atleta']['atleta_id']) {
-                $i++;
-                //tabela ultra responsiva
-                echo '<ol class="list-group list-group-numbered">';
-                echo '<li class="list-group-item d-flex justify-content-between align-items-start">';
-                echo '<div class="ms-2 me-auto">';
-
-                echo '<span class="badge badge-success">' . "Escalados por " . $ReservasMaisEscaladossubArray['escalacoes'] . ' Cartoleiros' . '</span>'; // Exibe a posição do atleta
-
-                echo '<div class="fw-bold">' . '<img src="' . $foto . '" class="img-fluid" alt="Responsive image" width="70" height="70" align="left">' . "<b>" . $i . 'º ' . $ReservasMaisEscaladossubArray['Atleta']['apelido'] . '</b></div>'; // Exibe o nome do atleta
-                echo '<img src="' . $ReservasMaisEscaladossubArray['escudo_clube'] . '" class="img-fluid" alt="Responsive image" width="15" height="15" align="">' . " - " . $ReservasMaisEscaladossubArray['clube_nome'] . '<br>'; // Exibe o nome do clube do atleta
-                echo '<b>Pos - ' . $ReservasMaisEscaladossubArray['posicao'] . '</b>'; // Exibe a posição que o atleta joga
-                echo '<span class="badge badge-danger" align="left">' . 'Custa C$ ' . $todas['preco_num'] . ' e valoriza com ' . $todas['minimo_para_valorizar'] . ' pts' . '</span>'; // Exibe a posição do atleta
-                echo '</div>';
-                echo '</li>';
-                echo '</ol>';
-
-
-                break;
-            }
-        }
-    }
-} //Fim da função Mais Escalados
