@@ -2,7 +2,6 @@
 require_once 'api.php';
 function ReservasMaisEscalados()
 {
-
     global $MaisEscaladosReservas; // Variável global
     global $TodasInformacoes; // Variável global 
     $i = 0;
@@ -17,20 +16,45 @@ function ReservasMaisEscalados()
                 while ($i <= 5) {
                     echo '<ol class="list-group list-group-numbered-">';
                     echo '<li class="list-group-item d-flex justify-content-between align-items-start">';
-                    echo '<div class="ms-2 me-auto">';
-                    echo '<div class="fw-bold">' . $i . ' - ' . '<img src="' . $foto 
-                    . '"class="img-fluid" alt="Responsive image" width="50" height="50" align="left">' 
-                    . $ReservasMaisEscaladossubArray['Atleta']['apelido_abreviado'] 
-                    . '</div>'  . $ReservasMaisEscaladossubArray['posicao'] 
-                    . '-' . '<img src="' . $ReservasMaisEscaladossubArray['escudo_clube'] 
-                    . '"class="img-fluid" alt="Responsive image" width="15" height="15" align="">' 
-                    . '</div>';
-                    echo '<span class="badge bg-secondary rounded-pill">'. $ReservasMaisEscaladossubArray['escalacoes'] . ' Escalações' . '</span>';
+                    echo '<div type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasRight' . $ReservasMaisEscaladossubArray['Atleta']['atleta_id'] . '" aria-controls="offcanvasRight' . $ReservasMaisEscaladossubArray['Atleta']['atleta_id'] . '" class="ms-2 me-auto">';
+                    echo '<div class="fw-bold">' . $i . ' - ' . '<img src="' . $foto
+                        . '"class="img-fluid" alt="Responsive image" width="50" height="50" align="left">'
+                        . $ReservasMaisEscaladossubArray['Atleta']['apelido_abreviado']
+                        . '</div>'  . $ReservasMaisEscaladossubArray['posicao_abreviacao']
+                        . '-' . '<img src="' . $ReservasMaisEscaladossubArray['escudo_clube']
+                        . '"class="img-fluid" alt="Responsive image" width="15" height="15" align="">'
+                        . '</div>';
+                    echo '<span class="badge bg-secondary rounded-pill">' . $ReservasMaisEscaladossubArray['escalacoes'] . ' Escalações' . '</span>';
+                    // INICIO - DETALHES DO ATLETA
+                    echo '<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight' . $ReservasMaisEscaladossubArray['Atleta']['atleta_id'] . '" aria-labelledby="offcanvasRightLabel">';
+                    echo '<div class="offcanvas-header">';
+                    echo '<h5 id="offcanvasRightLabel">' . $ReservasMaisEscaladossubArray['Atleta']['apelido_abreviado'] . '</h5>';
+                    echo '<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>';
+                    echo '</div>';
+                    echo '<div class="offcanvas-body">';
+                    echo '<div class="card" style="width: 18rem;">';
+                    echo '<img src="' . $foto . '"class="card-img-top" alt="...">';
+
+                    echo '<div class="card-body">';
+                    echo '<h5 class="card-title">' . $ReservasMaisEscaladossubArray['Atleta']['apelido'] . '</h5>';
+                    echo '<p class="card-text">' . '<b>Nome: </b>' . $ReservasMaisEscaladossubArray['Atleta']['nome'] . '</p>';
+                    echo '<p class="card-text">' . '<b>Apelido: </b>' . $ReservasMaisEscaladossubArray['Atleta']['apelido'] . '</p>';
+                    echo '<p class="card-text">' . '<b>Clube: </b>' . $ReservasMaisEscaladossubArray['clube_nome'] . '<img src="'
+                    . $ReservasMaisEscaladossubArray['escudo_clube'] . '"class="img-fluid" alt="Responsive image" width="15"height="15" align="">' . '</p>';
+                    echo '<p class="card-text">' . '<b>Posição: </b>' . $ReservasMaisEscaladossubArray['posicao'] . '</p>';
+
+                    echo '<div class="d-grid gap-2">';
+                    echo '<a href="https://gatomestre.globoesporte.globo.com/atletas/?utm_source=web-cartola&utm_medium=web&utm_term=gatomestre&cartola_p_gm=web&atleta_id=' . $ReservasMaisEscaladossubArray['Atleta']['atleta_id'] . '" class="btn btn-dark" target="_blank">Estatisticas Gato Mestre</a>';
+                    echo '</div>';
+                    echo '</div>';
+                    echo '</div>';
+                    //FIM - DETALHES DO ATLETA
                     echo '</li>';
                     echo '</ol>';
                     break;
                 }
             }
         }
-    } //Fim da função Mais Escalados
+    }
 }
