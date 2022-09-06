@@ -8,6 +8,8 @@ $urlMaisEscalados = "https://api.cartola.globo.com/mercado/destaques";
 $urlMelhorTimePosRodada = "https://api.cartola.globo.com/pos-rodada/destaques";
 $urlMaisEscaladosReservas = 'https://api.cartola.globo.com/mercado/destaques/reservas';
 
+$urlPontuandoNaRodada = 'https://api.cartola.globo.com/atletas/pontuados';
+
 //url mercadostatus
 $options = array(
     'http' =>
@@ -129,38 +131,6 @@ function RodadaAtual()
     //Mensagem da rodada atual com BG verde
     echo '<div class="alert alert-success" role="alert">Rodada: <b>' . $statusMercado['rodada_atual'] . '</b></div>';
 } //Fim da função
-
-function MercadoFecha()
-{
-    global $statusMercado; // Variável global
-    $fechaMercado = array(
-        'fechamento' => $statusMercado['fechamento']
-    );
-    $stringMercado = json_encode($fechaMercado); // Converte o array para JSON
-    $objetoMercado = json_decode($stringMercado, true); // Decodifica o JSON
-
-    $fechamento = array(
-        'fechamento' => $objetoMercado['fechamento']['dia'], // Retorna o dia do fechamento do mercado
-        'mes' => $objetoMercado['fechamento']['mes'], // Retorna o mês do fechamento do mercado
-        'hora' => $objetoMercado['fechamento']['hora'], // Retorna a hora do fechamento do mercado
-        'minuto' => $objetoMercado['fechamento']['minuto'], // Retorna o minuto do fechamento do mercado
-        'segundo' => $objetoMercado['fechamento']['timestamp'] // Retorna o segundo do fechamento do mercado
-    );
-
-    if ($statusMercado['status_mercado'] == 4) {
-        echo '<div class="alert alert-secondary" role="alert">Mercado Fecha: <b>AGUARDE</b></div>'; // Exibe a mensagem de mercado aberto
-    } else {
-        $data = new DateTime();
-        $data->setTimestamp($fechamento['segundo']);
-        $data->setTimezone(new DateTimeZone('America/Sao_Paulo'));
-        $data->format('d/m/Y H:i:s');
-
-        echo '<div class="alert alert-success" role="alert">Mercado Fecha: <b>' . $data->format('d/m/Y H:i:s') . '</b></div>';
-    }
-} //Fim da função MercadoFecha
-
-
-
 
 function TimesRodadaHoje()
 {
