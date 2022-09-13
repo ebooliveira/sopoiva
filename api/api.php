@@ -1,6 +1,7 @@
 <?php
 header("content-type: text/html; charset=utf-8");
 
+
 $url = "https://api.cartola.globo.com/mercado/status";
 $urlTodasInformacoes = 'https://api.cartola.globo.com/atletas/mercado';
 $urlMercadoPorRodada = 'https://api.cartola.globo.com/partidas/';
@@ -22,6 +23,7 @@ $options = array(
 $context = stream_context_create($options); // Cria o contexto da requisição
 $response = file_get_contents($url, false, $context); // Faz a requisição
 $statusMercado = json_decode($response, true); // Decodifica o JSON
+global $statusMercado;
 
 
 //$urlMaisEscalados

@@ -36,7 +36,7 @@ function ReservasMaisEscalados()
                     echo '<div class="card" style="width: 18rem;">';
                     echo '<img src="' . $foto . '"class="card-img-top" alt="...">';
 
-                    echo '<div class="card-body">';
+                    echo '<div class="card-body ">';
                     echo '<h5 class="card-title">' . $ReservasMaisEscaladossubArray['Atleta']['apelido'] . '</h5>';
                     echo '<p class="card-text">' . '<b>Nome: </b>' . $ReservasMaisEscaladossubArray['Atleta']['nome'] . '</p>';
                     echo '<p class="card-text">' . '<b>Apelido: </b>' . $ReservasMaisEscaladossubArray['Atleta']['apelido'] . '</p>';

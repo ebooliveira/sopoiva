@@ -1,6 +1,6 @@
 <?php
 require_once 'api/api.php';
-function timesAtualRodada()
+function timesAtualRodada1()
 {
     global $MercadoPorRodada; // Variável global
     global $SelecioneRodada;

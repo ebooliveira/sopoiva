@@ -14,7 +14,7 @@ function MaisEscalados()
             if ($info == $subArray['Atleta']['atleta_id']) {
                 $i++;
                 while ($i <= 5) {
-                    echo '<ol class="list-group list-group-numbered-">';
+                    echo '<ol class="list-group list-group-numbered- ">';
                     echo '<li class="list-group-item d-flex justify-content-between align-items-start">';
                     echo '<div type="button" data-bs-toggle="offcanvas"
                     data-bs-target="#offcanvasRight' . $subArray['Atleta']['atleta_id'] . '" aria-controls="offcanvasRight' . $subArray['Atleta']['atleta_id'] . '" class="ms-2 me-auto">';

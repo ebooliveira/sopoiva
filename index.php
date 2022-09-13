@@ -44,50 +44,51 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <div class="row ">
                 <div class="col-md-4">
-                    <label class="badge bg-dark text-white">Top5 Mais Escalados!</label>
+                    <span class="d-block p-2 bg-success text-white">Mais Escalados!</span>
+                    <title>Escalados</title>
+                    <?php
+                    require_once 'views/MaisEscalados.php';
+                    // SE FUNÇÃO MAIS ESCALADOS ESTIVER OK, EXIBA. CASO CONTRÁRIO, EXIBA UMA MESAGEM DE ERRO.
+                    $melhor1 = MaisEscalados1();
+                    echo $melhor1;
+                    ?>
+                </div>
+                <div class="col-md-4 ">
+                    <span class="d-block p-2 bg-success text-white">Reservas!</span>
                     <!--Chamar Função mais escalados-->
                     <?php
-                    require_once 'api/maisEscalados.php';
-                    $mais_escalados = MaisEscalados();
-                    echo $mais_escalados;
+                    require_once 'views/Reservas.php';
+                    $reservas = Reservas();
+                    echo $reservas;
                     ?>
                 </div>
                 <div class="col-md-4">
-                    <label class="badge bg-dark text-white">Reservas Mais Escaladas!</label>
-                    <!--Chamar Função mais escalados-->
-                    <?php
-                    require_once 'api/maisEscaladosReservas.php';
-                    $mais_escalados_Reservas = ReservasMaisEscalados();
-                    echo $mais_escalados_Reservas;
-                    ?>
-                </div>
-                <div class="col-md-4">
-                    <label class="badge bg-dark text-white">Melhor por Média!</label>
-                    <!--Chamar Função mais escalados-->
                     <?php
                     require_once 'api/timesAtualRodada.php';
+                    require_once 'api/api.php';
+                      ?>
+                    <span class="d-block p-2 bg-success text-white">Rodada #<?php echo $statusMercado['rodada_atual']; ?></span>
+                    <?php
                     $atualRodada = timesAtualRodada();
                     echo $atualRodada;
                     ?>
                 </div>
             </div>
         </div>
+    </main>
+    <!-- RODAPE -->
+    <footer class="bg-dark text-white">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
-                    <label class="badge bg-dark text-white">Melhor por Média!</label>
-                    <!--Chamar Função mais escalados-->
-                    <?php
-                    require_once 'api/melhorPorMedia.php';
-                    $melhor = melhorPorMedia();
-                    echo $melhor;
-                    ?>
+                <div class="col-md-12">
+                    <p class="text-center">Cartola FC - SoPoiva - <?php echo date('Y'); ?></p>
                 </div>
             </div>
         </div>
-    </main>
+    </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 

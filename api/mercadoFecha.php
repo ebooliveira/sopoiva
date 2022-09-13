@@ -1,5 +1,6 @@
 <?php
 require_once 'api.php';
+require_once 'notificador/notificadorTelegram.php';
 function MercadoFecha()
 {
     global $statusMercado; // Variável global
@@ -18,9 +19,17 @@ function MercadoFecha()
     );
 
     if ($statusMercado['status_mercado'] == 4) { // Se o status do mercado for 4 (fechado)
-        echo '<span class="badge badge-secondary">Mercado: <b>' . 'Manunteção' . '</b></span>'; // Mensagem de status do mercado fechado com BG cinza
+        echo '<span class="badge bg-warning text-dark">Mercado: <b>' . 'Manunteção' . '</b></span>'; // Mensagem de status do mercado fechado com BG cinza
+        //Enviar Mensagem Telegram
+        $StatusTelegramMercado = 'Mercado em Manuntenção! Iremos avisar quando abrir novamente!';
+        $NotificaoTelegram = new NotificaoTelegram(); // Instancia a classe NotificaoTelegram
+        $NotificaoTelegram->sendMessage($StatusTelegramMercado); // Envia a mensagem para o Telegram
     } else if ($statusMercado['status_mercado'] == 2) {
-        echo '<span class="badge badge-secondary">Mercado: <b>' . 'Fechado' . '</b></span>'; // Mensagem de status do mercado fechado com BG Vermelho
+        echo '<span class="badge bg-danger">Mercado: <b>' . 'Fechado' . '</b></span>'; // Mensagem de status do mercado fechado com BG Vermelho
+        //Enviar Mensagem Telegram
+        $StatusTelegramMercado = 'Mercado Fechado!';
+        $NotificaoTelegram = new NotificaoTelegram(); // Instancia a classe NotificaoTelegram
+        $NotificaoTelegram->sendMessage($StatusTelegramMercado); // Envia a mensagem para o Telegram
     } else { // Se o status do mercado for 2 (aberto)
         $data = new DateTime(); // Instancia a classe DateTime
         $data->setTimestamp($fechamento['segundo']); // Seta o timestamp do fechamento do mercado
@@ -32,7 +41,7 @@ function MercadoFecha()
         //Função onload regressivo
         echo '<script type="text/javascript">';
         echo 'window.onload = function() {';
-        echo 'var countDownDate = new Date("' . $data->format('d/m/Y H:i:s') . '").getTime();';
+        echo 'var countDownDate = new Date("' . $data->format('%Y-%m-%d %H:%i:%s') . '").getTime();';
         echo 'var x = setInterval(function() {';
         echo 'var now = new Date().getTime();';
         echo 'var distance = countDownDate - now;'; // Calcula a diferença entre a data de hoje e a data do fechamento do mercado
@@ -48,9 +57,11 @@ function MercadoFecha()
         echo '}, 1000);';
         echo '}';
         echo '</script>';
-        echo '<span class="badge badge-success">Mercado: <b>' . 'Aberto' . '</b></span>'; // Mensagem de status do mercado aberto com BG verde
-        echo '<span class="badge badge-success">Faltam: <b>' . $intervalo->format('%a dias %h horas %i minutos %s segundos') . '</b></span>';
-        echo '<span class="badge badge-success">Fechamento: <b>' . $data->format('d/m/Y H:i:s') . '</b></span>';
-        echo '<span class="badge badge-success">Fechamento: <b id="demo"></b></span>';
+        
+        echo '<span class="badge bg-success">Mercado Aberto! Fecha em: <b id="demo"></b></span>';
+        //Enviar Mensagem Telegram
+        $StatusTelegramMercado = 'Mercado Aberto! Fecha em: ' . $data->format('d/m/Y H:i:s'); // Mensagem de status do mercado aberto com BG verde   
+        $NotificaoTelegram = new NotificaoTelegram(); // Instancia a classe NotificaoTelegram
+        $NotificaoTelegram->sendMessage($StatusTelegramMercado); // Envia a mensagem para o Telegram
     }
 }

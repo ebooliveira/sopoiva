@@ -1,0 +1,2060 @@
+{
+    "data": [
+        {
+            "lang": "pt",
+            "entities": {
+                "annotations": [
+                    {
+                        "start": 59,
+                        "end": 69,
+                        "probability": 0.5468,
+                        "type": "Other",
+                        "normalized_text": "Brasileirão"
+                    },
+                    {
+                        "start": 74,
+                        "end": 81,
+                        "probability": 0.9975,
+                        "type": "Organization",
+                        "normalized_text": "Coritiba"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "start": 3,
+                        "end": 18,
+                        "username": "grupohelenicos",
+                        "id": "39818164"
+                    }
+                ]
+            },
+            "text": "RT @grupohelenicos: No próximo sábado, pela 27.ª rodada do Brasileirão, o Coritiba busca sua primeira vitória fora de casa no campeonato, c…",
+            "source": "Twitter for Android",
+            "possibly_sensitive": false,
+            "author_id": "1259924237575507969",
+            "id": "1569710871236018177",
+            "referenced_tweets": [
+                {
+                    "type": "retweeted",
+                    "id": "1569664961189744640"
+                }
+            ],
+            "created_at": "2022-09-13T15:33:30.000Z"
+        },
+        {
+            "entities": {
+
+
+
+
+                
+                "urls": [
+                    {
+                        "start": 140,
+                        "end": 163,
+                        "url": "https://t.co/Ex5qEWSm0j",
+                        "expanded_url": "https://www.bandab.com.br/esporte/times/coritiba/vira-lata-jogo-coritiba/",
+                        "display_url": "bandab.com.br/esporte/times/…",
+                        "images": [
+                            {
+                                "url": "https://pbs.twimg.com/news_img/1569706833207500801/LNr7pR49?format=jpg&name=orig",
+                                "width": 1200,
+                                "height": 1065
+                            },
+                            {
+                                "url": "https://pbs.twimg.com/news_img/1569706833207500801/LNr7pR49?format=jpg&name=150x150",
+                                "width": 150,
+                                "height": 150
+                            }
+                        ],
+                        "status": 200,
+                        "title": "'Vira-lata da sorte' assistindo jogo de Coritiba x Atlético-GO no Couto Pereira viraliza na web",
+                        "description": "Um cachorro vira-lata 'assistindo' ao jogo entre Coritiba x Atlético-GO viralizou na web nesta segunda-feira (12).",
+                        "unwound_url": "https://www.bandab.com.br/esporte/times/coritiba/vira-lata-jogo-coritiba/"
+                    },
+                    {
+                        "start": 164,
+                        "end": 187,
+                        "url": "https://t.co/GqnZitIzXB",
+                        "expanded_url": "https://twitter.com/esportebandab/status/1569706831995363336/photo/1",
+                        "display_url": "pic.twitter.com/GqnZitIzXB",
+                        "media_key": "3_1569706818330312705"
+                    }
+                ],
+
+
+
+
+
+
+
+                "annotations": [
+                    {
+                        "start": 69,
+                        "end": 81,
+                        "probability": 0.8318,
+                        "type": "Place",
+                        "normalized_text": "Couto Pereira"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "start": 40,
+                        "end": 49,
+                        "username": "Coritiba",
+                        "id": "31422644"
+                    },
+                    {
+                        "start": 53,
+                        "end": 64,
+                        "username": "ACGOficial",
+                        "id": "214039240"
+                    }
+                ],
+                "hashtags": [
+                    {
+                        "start": 99,
+                        "end": 108,
+                        "tag": "viralata"
+                    },
+                    {
+                        "start": 109,
+                        "end": 115,
+                        "tag": "sorte"
+                    },
+                    {
+                        "start": 116,
+                        "end": 121,
+                        "tag": "coxa"
+                    },
+                    {
+                        "start": 122,
+                        "end": 138,
+                        "tag": "Brasileirao2022"
+                    }
+                ]
+            },
+            "lang": "pt",
+            "text": "‘Vira-lata da sorte’ assistindo jogo de @Coritiba  x @ACGOficial  no Couto Pereira viraliza na web #viralata\n#sorte #coxa #Brasileirao2022 \nhttps://t.co/Ex5qEWSm0j https://t.co/GqnZitIzXB",
+            "source": "Twitter Web App",
+            "possibly_sensitive": false,
+            "author_id": "54297282",
+            "id": "1569706831995363336",
+            "created_at": "2022-09-13T15:17:27.000Z"
+        },
+        {
+            "includes": {
+                "users": [
+                    {
+                        "verified": false,
+                        "entities": {
+                            "url": {
+                                "urls": [
+                                    {
+                                        "start": 0,
+                                        "end": 23,
+                                        "url": "https://t.co/ad54HyR4l2",
+                                        "expanded_url": "https://www.instagram.com/ademar.ljr/",
+                                        "display_url": "instagram.com/ademar.ljr/"
+                                    }
+                                ]
+                            },
+                            "description": {
+                                "hashtags": [
+                                    {
+                                        "start": 0,
+                                        "end": 9,
+                                        "tag": "Coritiba"
+                                    },
+                                    {
+                                        "start": 10,
+                                        "end": 15,
+                                        "tag": "Coxa"
+                                    },
+                                    {
+                                        "start": 21,
+                                        "end": 32,
+                                        "tag": "coxabranca"
+                                    }
+                                ]
+                            }
+                        },
+                        "description": "#Coritiba #Coxa \nSer #coxabranca é um estado de espírito \uD83C\uDDF3\uD83C\uDDEC⚽️\uD83C\uDFC6⚪️\uD83D\uDFE2⚪️\uD83D\uDFE2",
+                        "username": "LjrAdemar",
+                        "created_at": "2020-05-11T19:12:23.000Z",
+                        "location": "Curitiba, Brasil",
+                        "profile_image_url": "https://pbs.twimg.com/profile_images/1538859554989125635/I8GgW1tF_normal.jpg",
+                        "public_metrics": {
+                            "followers_count": 1040,
+                            "following_count": 2598,
+                            "tweet_count": 16820,
+                            "listed_count": 2
+                        },
+                        "protected": false,
+                        "pinned_tweet_id": "1565738381455380480",
+                        "url": "https://t.co/ad54HyR4l2",
+                        "id": "1259924237575507969",
+                        "name": "Coxa-branca"
+                    },
+                    {
+                        "tweets": [
+                            {
+                                "entities": {
+                                    "urls": [
+                                        {
+                                            "start": 220,
+                                            "end": 243,
+                                            "url": "https://t.co/6mtlGQpKGh",
+                                            "expanded_url": "https://twitter.com/grupohelenicos/status/1569664961189744640/photo/1",
+                                            "display_url": "pic.twitter.com/6mtlGQpKGh",
+                                            "media_key": "3_1569662198082854913"
+                                        }
+                                    ],
+                                    "annotations": [
+                                        {
+                                            "start": 39,
+                                            "end": 49,
+                                            "probability": 0.4802,
+                                            "type": "Other",
+                                            "normalized_text": "Brasileirão"
+                                        },
+                                        {
+                                            "start": 54,
+                                            "end": 61,
+                                            "probability": 0.998,
+                                            "type": "Organization",
+                                            "normalized_text": "Coritiba"
+                                        },
+                                        {
+                                            "start": 127,
+                                            "end": 134,
+                                            "probability": 0.9511,
+                                            "type": "Organization",
+                                            "normalized_text": "Botafogo"
+                                        },
+                                        {
+                                            "start": 139,
+                                            "end": 152,
+                                            "probability": 0.9873,
+                                            "type": "Place",
+                                            "normalized_text": "Rio de Janeiro"
+                                        }
+                                    ],
+                                    "hashtags": [
+                                        {
+                                            "start": 155,
+                                            "end": 164,
+                                            "tag": "coritiba"
+                                        },
+                                        {
+                                            "start": 165,
+                                            "end": 181,
+                                            "tag": "brasileirão2022"
+                                        },
+                                        {
+                                            "start": 182,
+                                            "end": 194,
+                                            "tag": "proximojogo"
+                                        },
+                                        {
+                                            "start": 195,
+                                            "end": 203,
+                                            "tag": "BOTxCFC"
+                                        },
+                                        {
+                                            "start": 204,
+                                            "end": 219,
+                                            "tag": "grupohelenicos"
+                                        }
+                                    ]
+                                },
+                                "lang": "pt",
+                                "text": "No próximo sábado, pela 27.ª rodada do Brasileirão, o Coritiba busca sua primeira vitória fora de casa no campeonato, contra o Botafogo no Rio de Janeiro! #coritiba #brasileirão2022 #proximojogo #BOTxCFC #grupohelenicos https://t.co/6mtlGQpKGh",
+                                "source": "Twitter Web App",
+                                "possibly_sensitive": false,
+                                "author_id": "39818164",
+                                "id": "1569664961189744640",
+                                "created_at": "2022-09-13T12:31:04.000Z"
+                            },
+                            {
+                                "lang": "pt",
+                                "entities": {
+                                    "mentions": [
+                                        {
+                                            "start": 0,
+                                            "end": 16,
+                                            "username": "espiaocartolafc",
+                                            "id": "1310025666717528064"
+                                        }
+                                    ]
+                                },
+                                "text": "@espiaocartolafc Eu acredito que não mudará....se isso acontecer será de forma isolada do cartola e não do footstats. Até pq outros fantasygames já fecharam suas rodadas e já até premiaram os participantes....seria um problema seríssimo....pra mim não muda",
+                                "in_reply_to_user_id": "1310025666717528064",
+                                "source": "Twitter for Android",
+                                "possibly_sensitive": false,
+                                "author_id": "1083891247226474496",
+                                "id": "1569479262788550658",
+                                "referenced_tweets": [
+                                    {
+                                        "type": "replied_to",
+                                        "id": "1569475503517765632"
+                                    }
+                                ],
+                                "created_at": "2022-09-13T00:13:10.000Z"
+                            },
+                            {
+                                "lang": "pt",
+                                "entities": {
+                                    "annotations": [
+                                        {
+                                            "start": 95,
+                                            "end": 99,
+                                            "probability": 0.86,
+                                            "type": "Person",
+                                            "normalized_text": "Veiga"
+                                        }
+                                    ],
+                                    "mentions": [
+                                        {
+                                            "start": 0,
+                                            "end": 15,
+                                            "username": "FlavioUlisses1",
+                                            "id": "1264913808562233344"
+                                        },
+                                        {
+                                            "start": 16,
+                                            "end": 26,
+                                            "username": "cartolafc",
+                                            "id": "10075202"
+                                        }
+                                    ]
+                                },
+                                "text": "@FlavioUlisses1 @cartolafc Na rdd 23 foi um erro grotesco, por isso n foi colocado como gol do Veiga, agora esse aí é outro caso.",
+                                "in_reply_to_user_id": "1264913808562233344",
+                                "source": "Twitter for Android",
+                                "possibly_sensitive": false,
+                                "author_id": "1304427168437604353",
+                                "id": "1569427875584958464",
+                                "referenced_tweets": [
+                                    {
+                                        "type": "replied_to",
+                                        "id": "1569422309689114625"
+                                    }
+                                ],
+                                "created_at": "2022-09-12T20:48:58.000Z"
+                            },
+                            {
+                                "lang": "pt",
+                                "entities": {
+                                    "mentions": [
+                                        {
+                                            "start": 0,
+                                            "end": 12,
+                                            "username": "edmundocrvg",
+                                            "id": "959416219949584385"
+                                        },
+                                        {
+                                            "start": 13,
+                                            "end": 26,
+                                            "username": "ccostacaique",
+                                            "id": "1133292197246308353"
+                                        },
+                                        {
+                                            "start": 27,
+                                            "end": 37,
+                                            "username": "cartolafc",
+                                            "id": "10075202"
+                                        }
+                                    ]
+                                },
+                                "text": "@edmundocrvg @ccostacaique @cartolafc O juiz mudou o gol na súmula.",
+                                "in_reply_to_user_id": "959416219949584385",
+                                "source": "Twitter Web App",
+                                "possibly_sensitive": false,
+                                "author_id": "1495476310629572611",
+                                "id": "1569688850909331461",
+                                "referenced_tweets": [
+                                    {
+                                        "type": "replied_to",
+                                        "id": "1569682848268914689"
+                                    }
+                                ],
+                                "created_at": "2022-09-13T14:06:00.000Z"
+                            },
+                            {
+                                "lang": "pt",
+                                "entities": {
+                                    "mentions": [
+                                        {
+                                            "start": 0,
+                                            "end": 15,
+                                            "username": "cartolaplaneta",
+                                            "id": "1281772101523976192"
+                                        },
+                                        {
+                                            "start": 16,
+                                            "end": 28,
+                                            "username": "CartolaCFDS",
+                                            "id": "576296252"
+                                        },
+                                        {
+                                            "start": 29,
+                                            "end": 39,
+                                            "username": "cartolafc",
+                                            "id": "10075202"
+                                        }
+                                    ]
+                                },
+                                "text": "@cartolaplaneta @CartolaCFDS @cartolafc Iluminado ao Sol do Novo Mundo!",
+                                "in_reply_to_user_id": "1281772101523976192",
+                                "source": "Twitter for iPhone",
+                                "possibly_sensitive": false,
+                                "author_id": "231511134",
+                                "id": "1569690330131308544",
+                                "referenced_tweets": [
+                                    {
+                                        "type": "replied_to",
+                                        "id": "1569680115998523392"
+                                    }
+                                ],
+                                "created_at": "2022-09-13T14:11:52.000Z"
+                            },
+                            {
+                                "entities": {
+                                    "urls": [
+                                        {
+                                            "start": 62,
+                                            "end": 85,
+                                            "url": "https://t.co/EzDf7h3Rbu",
+                                            "expanded_url": "https://twitter.com/cartolaexpress/status/1569670531120611330",
+                                            "display_url": "twitter.com/cartolaexpress…"
+                                        }
+                                    ]
+                                },
+                                "lang": "pt",
+                                "text": "Muitos prêmios para você na rodada #27 do Express! Não perca! https://t.co/EzDf7h3Rbu",
+                                "source": "Twitter Web App",
+                                "possibly_sensitive": false,
+                                "author_id": "10075202",
+                                "id": "1569676330823712769",
+                                "referenced_tweets": [
+                                    {
+                                        "type": "quoted",
+                                        "id": "1569670531120611330"
+                                    }
+                                ],
+                                "created_at": "2022-09-13T13:16:15.000Z"
+                            },
+                            {
+                                "lang": "pt",
+                                "text": "FLAMENGUISTA SEGUE FLAMENGUISTA⚫\uD83D\uDD34\uD83D\uDCAA\uD83C\uDFFE⚡\n\n⚫RT ESSE TWEET\uD83D\uDD34\n⚫SIGA QUEM DER FAV\uD83D\uDD34\n⚫SIGA QUEM DER RT\uD83D\uDD34\n⚫SIGA QUEM TE SEGUIR\uD83D\uDD34\n⚫️ SIGA QUEM CURTIR SEU COMENTÁRIO \uD83D\uDD34\n\n➡ Vou seguir todos que derem RT/e me seguir.\n#RNsegueRN\n#flamengomalvadao \n#Flamengo #Brasileirao2022\n#SRN",
+                                "source": "Twitter for Android",
+                                "possibly_sensitive": false,
+                                "author_id": "1374828079986708480",
+                                "entities": {
+                                    "hashtags": [
+                                        {
+                                            "start": 198,
+                                            "end": 208,
+                                            "tag": "RNsegueRN"
+                                        },
+                                        {
+                                            "start": 209,
+                                            "end": 226,
+                                            "tag": "flamengomalvadao"
+                                        },
+                                        {
+                                            "start": 228,
+                                            "end": 237,
+                                            "tag": "Flamengo"
+                                        },
+                                        {
+                                            "start": 238,
+                                            "end": 254,
+                                            "tag": "Brasileirao2022"
+                                        },
+                                        {
+                                            "start": 255,
+                                            "end": 259,
+                                            "tag": "SRN"
+                                        }
+                                    ]
+                                },
+                                "id": "1569657966281822208",
+                                "created_at": "2022-09-13T12:03:16.000Z"
+                            },
+                            {
+                                "lang": "pt",
+                                "text": "FLAMENGUISTA SEGUE FLAMENGUISTA⚫\uD83D\uDD34\uD83D\uDCAA\uD83C\uDFFE⚡\n\n⚫RT ESSE TWEET\uD83D\uDD34\n⚫SIGA QUEM DER FAV\uD83D\uDD34\n⚫SIGA QUEM DER RT\uD83D\uDD34\n⚫SIGA QUEM TE SEGUIR\uD83D\uDD34\n⚫️ SIGA QUEM CURTIR SEU COMENTÁRIO \uD83D\uDD34\n\n➡ Vou seguir todos que derem RT/e me seguir.\n#RNsegueRN\n#flamengomalvadao \n#Flamengo #Brasileirao2022\n#SRN",
+                                "source": "Twitter for Android",
+                                "possibly_sensitive": false,
+                                "author_id": "962883558456152066",
+                                "entities": {
+                                    "hashtags": [
+                                        {
+                                            "start": 198,
+                                            "end": 208,
+                                            "tag": "RNsegueRN"
+                                        },
+                                        {
+                                            "start": 209,
+                                            "end": 226,
+                                            "tag": "flamengomalvadao"
+                                        },
+                                        {
+                                            "start": 228,
+                                            "end": 237,
+                                            "tag": "Flamengo"
+                                        },
+                                        {
+                                            "start": 238,
+                                            "end": 254,
+                                            "tag": "Brasileirao2022"
+                                        },
+                                        {
+                                            "start": 255,
+                                            "end": 259,
+                                            "tag": "SRN"
+                                        }
+                                    ]
+                                },
+                                "id": "1569396446121664512",
+                                "created_at": "2022-09-12T18:44:05.000Z"
+                            },
+                            {
+                                "entities": {
+                                    "urls": [
+                                        {
+                                            "start": 26,
+                                            "end": 49,
+                                            "url": "https://t.co/GdbX3pfrKy",
+                                            "expanded_url": "https://twitter.com/ButecoBotafogo/status/1569637369585729537/photo/1",
+                                            "display_url": "pic.twitter.com/GdbX3pfrKy",
+                                            "media_key": "3_1569637364422656001"
+                                        }
+                                    ],
+                                    "hashtags": [
+                                        {
+                                            "start": 0,
+                                            "end": 16,
+                                            "tag": "Brasileirao2022"
+                                        },
+                                        {
+                                            "start": 17,
+                                            "end": 25,
+                                            "tag": "futebol"
+                                        }
+                                    ]
+                                },
+                                "lang": "qme",
+                                "text": "#Brasileirao2022 #futebol https://t.co/GdbX3pfrKy",
+                                "source": "Twitter for iPhone",
+                                "possibly_sensitive": false,
+                                "author_id": "15909218",
+                                "id": "1569637369585729537",
+                                "created_at": "2022-09-13T10:41:26.000Z"
+                            },
+                            {
+                                "entities": {
+                                    "urls": [
+                                        {
+                                            "start": 210,
+                                            "end": 233,
+                                            "url": "https://t.co/LX4dU8wiY4",
+                                            "expanded_url": "https://jogada10.com.br/santos/lisca-se-despede-do-santos-nas-redes-desejo-boa-sorte/",
+                                            "display_url": "jogada10.com.br/santos/lisca-s…",
+                                            "status": 200,
+                                            "title": "Lisca se despede do Santos nas redes: 'Desejo boa sorte'",
+                                            "description": "Treinador agradeceu a funcionários e jogadores do Peixe durante período de trabalho no clube e desejou sorte no restante da temporada",
+                                            "unwound_url": "https://jogada10.com.br/santos/lisca-se-despede-do-santos-nas-redes-desejo-boa-sorte/"
+                                        }
+                                    ],
+                                    "hashtags": [
+                                        {
+                                            "start": 135,
+                                            "end": 144,
+                                            "tag": "SantosFC"
+                                        },
+                                        {
+                                            "start": 145,
+                                            "end": 151,
+                                            "tag": "Lisca"
+                                        },
+                                        {
+                                            "start": 152,
+                                            "end": 168,
+                                            "tag": "Brasileirão2022"
+                                        },
+                                        {
+                                            "start": 169,
+                                            "end": 183,
+                                            "tag": "MercadoDaBola"
+                                        },
+                                        {
+                                            "start": 184,
+                                            "end": 193,
+                                            "tag": "Jogada10"
+                                        },
+                                        {
+                                            "start": 194,
+                                            "end": 204,
+                                            "tag": "PortalJ10"
+                                        },
+                                        {
+                                            "start": 205,
+                                            "end": 209,
+                                            "tag": "J10"
+                                        }
+                                    ]
+                                },
+                                "lang": "pt",
+                                "text": "Treinador agradeceu a funcionários e jogadores do Peixe durante período de trabalho no clube e desejou sorte no restante da temporada\n\n#SantosFC #Lisca #Brasileirão2022 #MercadoDaBola #Jogada10 #PortalJ10 #J10\nhttps://t.co/LX4dU8wiY4",
+                                "source": "Twitter Web App",
+                                "possibly_sensitive": false,
+                                "author_id": "1289240946836676608",
+                                "id": "1569700323455041543",
+                                "created_at": "2022-09-13T14:51:35.000Z"
+                            },
+                            {
+                                "lang": "pt",
+                                "entities": {
+                                    "annotations": [
+                                        {
+                                            "start": 101,
+                                            "end": 106,
+                                            "probability": 0.5431,
+                                            "type": "Person",
+                                            "normalized_text": "Murilo"
+                                        },
+                                        {
+                                            "start": 136,
+                                            "end": 144,
+                                            "probability": 0.9868,
+                                            "type": "Person",
+                                            "normalized_text": "Zé Rafael"
+                                        }
+                                    ],
+                                    "mentions": [
+                                        {
+                                            "start": 0,
+                                            "end": 10,
+                                            "username": "cartolafc",
+                                            "id": "10075202"
+                                        }
+                                    ]
+                                },
+                                "text": "@cartolafc Acho que vocês deveriam ao menos ter um bom senso e se pronunciar. “ Daremos o gol para l Murilo “ ou “ manteremos o gol pro Zé Rafael “. Pois ficaremos bravos após a decisão ser tomada de qualquer forma",
+                                "in_reply_to_user_id": "10075202",
+                                "source": "Twitter for iPhone",
+                                "possibly_sensitive": false,
+                                "author_id": "1426688485923164160",
+                                "id": "1569703879880675330",
+                                "referenced_tweets": [
+                                    {
+                                        "type": "replied_to",
+                                        "id": "1569420412668215296"
+                                    }
+                                ],
+                                "created_at": "2022-09-13T15:05:43.000Z"
+                            },
+                            {
+                                "lang": "pt",
+                                "entities": {
+                                    "annotations": [
+                                        {
+                                            "start": 101,
+                                            "end": 105,
+                                            "probability": 0.9109,
+                                            "type": "Person",
+                                            "normalized_text": "Bento"
+                                        },
+                                        {
+                                            "start": 111,
+                                            "end": 122,
+                                            "probability": 0.3072,
+                                            "type": "Organization",
+                                            "normalized_text": "Athletico-PR"
+                                        }
+                                    ]
+                                },
+                                "text": "Atenção,  cartoleiros! \n\nO mercado está em manutenção para um ajuste técnico na pontuação do goleiro Bento, do Athletico-PR.\n\nEsperamos reabrir o mercado em breve. E solicitamos que mesmo quem já tiver escalado para a rodada #27 monte o time novamente para o fim de semana.",
+                                "source": "Twitter Web App",
+                                "possibly_sensitive": false,
+                                "author_id": "10075202",
+                                "id": "1569420412668215296",
+                                "created_at": "2022-09-12T20:19:19.000Z"
+                            },
+                            {
+                                "entities": {
+                                    "urls": [
+                                        {
+                                            "start": 91,
+                                            "end": 114,
+                                            "url": "https://t.co/ZUW90mNyds",
+                                            "expanded_url": "https://twitter.com/Gremio/status/1569077209582764034/photo/1",
+                                            "display_url": "pic.twitter.com/ZUW90mNyds",
+                                            "media_key": "3_1569077036253052930"
+                                        }
+                                    ],
+                                    "hashtags": [
+                                        {
+                                            "start": 48,
+                                            "end": 56,
+                                            "tag": "GRExVAS"
+                                        },
+                                        {
+                                            "start": 57,
+                                            "end": 73,
+                                            "tag": "Brasileirão2022"
+                                        },
+                                        {
+                                            "start": 74,
+                                            "end": 90,
+                                            "tag": "OutraVezNósDois"
+                                        }
+                                    ]
+                                },
+                                "lang": "pt",
+                                "text": "Eu não tô chorando. Você está chorando.\n\uD83E\uDD79\uD83E\uDD79\uD83E\uDD79\n\n\uD83C\uDDEA\uD83C\uDDEA #GRExVAS #Brasileirão2022 #OutraVezNósDois https://t.co/ZUW90mNyds",
+                                "source": "Twitter Web App",
+                                "possibly_sensitive": false,
+                                "author_id": "20237983",
+                                "id": "1569077209582764034",
+                                "created_at": "2022-09-11T21:35:33.000Z"
+                            },
+                            {
+                                "entities": {
+                                    "urls": [
+                                        {
+                                            "start": 21,
+                                            "end": 44,
+                                            "url": "https://t.co/51kmU3DWf3",
+                                            "expanded_url": "https://twitter.com/Raphadunamis/status/1569700227984293888/photo/1",
+                                            "display_url": "pic.twitter.com/51kmU3DWf3",
+                                            "media_key": "3_1569700222829318146"
+                                        }
+                                    ],
+                                    "mentions": [
+                                        {
+                                            "start": 0,
+                                            "end": 9,
+                                            "username": "PhillTds",
+                                            "id": "337894856"
+                                        },
+                                        {
+                                            "start": 10,
+                                            "end": 20,
+                                            "username": "cartolafc",
+                                            "id": "10075202"
+                                        }
+                                    ]
+                                },
+                                "lang": "qme",
+                                "text": "@PhillTds @cartolafc https://t.co/51kmU3DWf3",
+                                "in_reply_to_user_id": "337894856",
+                                "source": "Twitter for iPhone",
+                                "possibly_sensitive": false,
+                                "author_id": "1426688485923164160",
+                                "id": "1569700227984293888",
+                                "referenced_tweets": [
+                                    {
+                                        "type": "replied_to",
+                                        "id": "1569682908318662656"
+                                    }
+                                ],
+                                "created_at": "2022-09-13T14:51:12.000Z"
+                            },
+                            {
+                                "entities": {
+                                    "urls": [
+                                        {
+                                            "start": 118,
+                                            "end": 141,
+                                            "url": "https://t.co/S3N13fXFlp",
+                                            "expanded_url": "https://twitter.com/TNTSportsBR/status/1569086487861334016/video/1",
+                                            "display_url": "pic.twitter.com/S3N13fXFlp",
+                                            "media_key": "7_1569086364519473152"
+                                        }
+                                    ],
+                                    "annotations": [
+                                        {
+                                            "start": 3,
+                                            "end": 13,
+                                            "probability": 0.9769,
+                                            "type": "Organization",
+                                            "normalized_text": "Corinthians"
+                                        },
+                                        {
+                                            "start": 92,
+                                            "end": 97,
+                                            "probability": 0.9648,
+                                            "type": "Person",
+                                            "normalized_text": "Cássio"
+                                        }
+                                    ],
+                                    "hashtags": [
+                                        {
+                                            "start": 101,
+                                            "end": 117,
+                                            "tag": "Brasileirão2022"
+                                        }
+                                    ]
+                                },
+                                "lang": "pt",
+                                "text": "'O Corinthians não precisa chamar a torcida. Ela SEMPRE COMPARECE'.\n\nA Fiel é diferente né, Cássio!? #Brasileirão2022 https://t.co/S3N13fXFlp",
+                                "source": "Twitter Web App",
+                                "possibly_sensitive": false,
+                                "author_id": "15911679",
+                                "id": "1569086487861334016",
+                                "created_at": "2022-09-11T22:12:25.000Z"
+                            },
+                            {
+                                "lang": "pt",
+                                "entities": {
+                                    "mentions": [
+                                        {
+                                            "start": 0,
+                                            "end": 9,
+                                            "username": "PhillTds",
+                                            "id": "337894856"
+                                        },
+                                        {
+                                            "start": 10,
+                                            "end": 22,
+                                            "username": "edmundocrvg",
+                                            "id": "959416219949584385"
+                                        },
+                                        {
+                                            "start": 23,
+                                            "end": 33,
+                                            "username": "cartolafc",
+                                            "id": "10075202"
+                                        }
+                                    ]
+                                },
+                                "text": "@PhillTds @edmundocrvg @cartolafc não teve porque não foi autorizado ainda amigo, mas deve acontecer durante o decorrer do dia. estou cobrando apenas um posicionamento deles em relação a isso. fingir que não está acontecendo nada não é o melhor caminho.",
+                                "in_reply_to_user_id": "337894856",
+                                "source": "Twitter for Android",
+                                "possibly_sensitive": false,
+                                "author_id": "1133292197246308353",
+                                "id": "1569694110981804034",
+                                "referenced_tweets": [
+                                    {
+                                        "type": "replied_to",
+                                        "id": "1569692964611293185"
+                                    }
+                                ],
+                                "created_at": "2022-09-13T14:26:54.000Z"
+                            },
+                            {
+                                "lang": "pt",
+                                "entities": {
+                                    "mentions": [
+                                        {
+                                            "start": 0,
+                                            "end": 11,
+                                            "username": "Rei2021rei",
+                                            "id": "2532322944"
+                                        }
+                                    ]
+                                },
+                                "text": "@Rei2021rei Salve, parça!\uD83D\uDC4A\nOs resultados podem sofrer alterações pois ainda não chegamos no final dessa rodada.\nFica tranquilo que minha equipe técnica revisa os Scouts, beleza?!\nSe precisar de alguma coisa, é só chamar aqui!\nAté mais, Cartoleiro!\uD83C\uDFA9",
+                                "in_reply_to_user_id": "2532322944",
+                                "source": "Buzzmonitor ",
+                                "possibly_sensitive": false,
+                                "author_id": "10075202",
+                                "id": "1568963827953242112",
+                                "referenced_tweets": [
+                                    {
+                                        "type": "replied_to",
+                                        "id": "1568910102656339970"
+                                    }
+                                ],
+                                "created_at": "2022-09-11T14:05:01.000Z"
+                            },
+                            {
+                                "lang": "pt",
+                                "entities": {
+                                    "annotations": [
+                                        {
+                                            "start": 49,
+                                            "end": 54,
+                                            "probability": 0.801,
+                                            "type": "Person",
+                                            "normalized_text": "Murilo"
+                                        },
+                                        {
+                                            "start": 95,
+                                            "end": 103,
+                                            "probability": 0.9907,
+                                            "type": "Person",
+                                            "normalized_text": "Zé Rafael"
+                                        }
+                                    ],
+                                    "mentions": [
+                                        {
+                                            "start": 0,
+                                            "end": 10,
+                                            "username": "cartolafc",
+                                            "id": "10075202"
+                                        }
+                                    ]
+                                },
+                                "text": "@cartolafc Pessoal espumando por conta do gol do Murilo .. mas está na súmula galera .. gol do Zé Rafael .. não tem o que fazer ... É foda",
+                                "in_reply_to_user_id": "10075202",
+                                "source": "Twitter for Android",
+                                "possibly_sensitive": false,
+                                "author_id": "337894856",
+                                "id": "1569682908318662656",
+                                "referenced_tweets": [
+                                    {
+                                        "type": "replied_to",
+                                        "id": "1569676330823712769"
+                                    }
+                                ],
+                                "created_at": "2022-09-13T13:42:23.000Z"
+                            },
+                            {
+                                "lang": "pt",
+                                "entities": {
+                                    "mentions": [
+                                        {
+                                            "start": 0,
+                                            "end": 10,
+                                            "username": "cartolafc",
+                                            "id": "10075202"
+                                        }
+                                    ]
+                                },
+                                "text": "@cartolafc Jamais, vcs nem tem respeito com os clientes de vcs, e não dá uma satisfação em relação as critérios que usa. Em uma rodada não vai pela súmula e na outra rodada vai pela súmula, ou seja, sem critério e segurança alguma",
+                                "in_reply_to_user_id": "10075202",
+                                "source": "Twitter for iPhone",
+                                "possibly_sensitive": false,
+                                "author_id": "3065844657",
+                                "id": "1569694321321951237",
+                                "referenced_tweets": [
+                                    {
+                                        "type": "replied_to",
+                                        "id": "1569676330823712769"
+                                    }
+                                ],
+                                "created_at": "2022-09-13T14:27:44.000Z"
+                            },
+                            {
+                                "lang": "pt",
+                                "text": "FLAMENGUISTA SEGUE FLAMENGUISTA✅\n\n⚫RT ESSE TWEET\uD83D\uDD34\n⚫SIGA QUEM DER FAV\uD83D\uDD34\n⚫SIGA QUEM DER RT\uD83D\uDD34\n⚫SIGA QUEM TE SEGUIR\uD83D\uDD34\n⚫️ SIGA QUEM CURTIR SEU COMENTÁRIO \uD83D\uDD34\n\n➡ Vou seguir todos que derem RT/e me seguir.\n#RNsegueRN\n#flamengomalvadao \n#Flamengo #Brasileirao2022\n#SRN",
+                                "source": "Twitter for iPhone",
+                                "possibly_sensitive": false,
+                                "author_id": "1425619755419983872",
+                                "entities": {
+                                    "hashtags": [
+                                        {
+                                            "start": 194,
+                                            "end": 204,
+                                            "tag": "RNsegueRN"
+                                        },
+                                        {
+                                            "start": 205,
+                                            "end": 222,
+                                            "tag": "flamengomalvadao"
+                                        },
+                                        {
+                                            "start": 224,
+                                            "end": 233,
+                                            "tag": "Flamengo"
+                                        },
+                                        {
+                                            "start": 234,
+                                            "end": 250,
+                                            "tag": "Brasileirao2022"
+                                        },
+                                        {
+                                            "start": 251,
+                                            "end": 255,
+                                            "tag": "SRN"
+                                        }
+                                    ]
+                                },
+                                "id": "1569466909309140993",
+                                "created_at": "2022-09-12T23:24:05.000Z"
+                            },
+                            {
+                                "entities": {
+                                    "urls": [
+                                        {
+                                            "start": 84,
+                                            "end": 107,
+                                            "url": "https://t.co/ADDGnW6ZW6",
+                                            "expanded_url": "https://youtube.com/c/ORGULHOALVINEGRO-%E5%BD%A1",
+                                            "display_url": "youtube.com/c/ORGULHOALVIN…",
+                                            "images": [
+                                                {
+                                                    "url": "https://pbs.twimg.com/news_img/1568656191965863950/Bm-T5qh8?format=jpg&name=orig",
+                                                    "width": 900,
+                                                    "height": 900
+                                                },
+                                                {
+                                                    "url": "https://pbs.twimg.com/news_img/1568656191965863950/Bm-T5qh8?format=jpg&name=150x150",
+                                                    "width": 150,
+                                                    "height": 150
+                                                }
+                                            ],
+                                            "status": 200,
+                                            "title": "ORGULHO ALVINEGRO ★彡",
+                                            "description": "Canal Orgulho Alvinegro é um canal no Youtube dos Irmãos Cardoso, Paulo Roberto Cardoso (PRC) e Fernando Cardoso, estamos há muitos e muitos anos acompanhando o Glorioso Botafogo onde quer que ele esteja. Juntamente com os irmãos, estão os nossos amigos Nilson Teixeira (Canal Terapia Alvinegra), Marivaldo Evangelista e Leandro Costa. Fazemos lives com notícias, pré-jogo, pós-jogo do Botafogo de Futebol e Regatas. Vídeos de músicas do Botafogo feitas por nosso compositor Paulo Roberto Cardoso (PRC) Acompanhamos os campeonatos de Remo do nosso querido Botafogo de Regatas, com lives e vídeos das competições. Quer ajudar o canal a crescer? INSCREVA-SE, deixe seu LIKE e COMENTÁRIOS. Contatos para parcerias: fjscardoso1963@gmail.com e whatzapp: (21)99192-2127",
+                                            "unwound_url": "https://www.youtube.com/c/ORGULHOALVINEGRO-%E5%BD%A1"
+                                        },
+                                        {
+                                            "start": 266,
+                                            "end": 289,
+                                            "url": "https://t.co/2qFqMqRJ0H",
+                                            "expanded_url": "https://twitter.com/SuperLeal1/status/1569697556514455552/photo/1",
+                                            "display_url": "pic.twitter.com/2qFqMqRJ0H",
+                                            "media_key": "3_1569697444920688640"
+                                        }
+                                    ],
+                                    "annotations": [
+                                        {
+                                            "start": 135,
+                                            "end": 141,
+                                            "probability": 0.9454,
+                                            "type": "Product",
+                                            "normalized_text": "TWITTER"
+                                        }
+                                    ],
+                                    "mentions": [
+                                        {
+                                            "start": 145,
+                                            "end": 161,
+                                            "username": "OrgulhoAlvineg1",
+                                            "id": "1538239899547074560"
+                                        },
+                                        {
+                                            "start": 225,
+                                            "end": 240,
+                                            "username": "fjscardoso1963",
+                                            "id": "1512565766113091595"
+                                        },
+                                        {
+                                            "start": 241,
+                                            "end": 256,
+                                            "username": "GlorifogoPaulo",
+                                            "id": "350060391"
+                                        },
+                                        {
+                                            "start": 257,
+                                            "end": 265,
+                                            "username": "fogao07",
+                                            "id": "128028031"
+                                        }
+                                    ]
+                                },
+                                "lang": "pt",
+                                "text": "HOJE TERÇA 13/09 ÀS 19H TEM LIVE ORGULHO ALVINEGRO. COMEÇANDO PRÉ-JOGO BOTA X COXA.\nhttps://t.co/ADDGnW6ZW6\nSIGAM NOSSA PÁGINA AQUI NO TWITTER: \n@OrgulhoAlvineg1 e IREMOS SEGUI-LOS DE VOLTA!! \"FOGÃO SEGUE FOGÃO\" OBRIGADO!!!\n\n@fjscardoso1963 @GlorifogoPaulo @fogao07 https://t.co/2qFqMqRJ0H",
+                                "source": "Twitter Web App",
+                                "possibly_sensitive": false,
+                                "author_id": "1378665363978739712",
+                                "id": "1569697556514455552",
+                                "created_at": "2022-09-13T14:40:35.000Z"
+                            },
+                            {
+                                "lang": "pt",
+                                "entities": {
+                                    "annotations": [
+                                        {
+                                            "start": 20,
+                                            "end": 31,
+                                            "probability": 0.9849,
+                                            "type": "Person",
+                                            "normalized_text": "Marcos Rocha"
+                                        },
+                                        {
+                                            "start": 39,
+                                            "end": 42,
+                                            "probability": 0.6617,
+                                            "type": "Person",
+                                            "normalized_text": "Rony"
+                                        }
+                                    ],
+                                    "mentions": [
+                                        {
+                                            "start": 7,
+                                            "end": 17,
+                                            "username": "Palmeiras",
+                                            "id": "46104914"
+                                        },
+                                        {
+                                            "start": 70,
+                                            "end": 82,
+                                            "username": "ECJuventude",
+                                            "id": "62964411"
+                                        }
+                                    ],
+                                    "hashtags": [
+                                        {
+                                            "start": 129,
+                                            "end": 140,
+                                            "tag": "trpalestra"
+                                        }
+                                    ]
+                                },
+                                "text": "Gol do @Palmeiras!\n\nMarcos Rocha lança Rony que abre o placar sobre o @ECJuventude! O atacante está escalado em 1.294.947 times. #trpalestra",
+                                "source": "Twitter Web App",
+                                "possibly_sensitive": false,
+                                "author_id": "10075202",
+                                "id": "1568768201554804736",
+                                "created_at": "2022-09-11T01:07:40.000Z"
+                            },
+                            {
+                                "lang": "pt",
+                                "entities": {
+                                    "annotations": [
+                                        {
+                                            "start": 88,
+                                            "end": 96,
+                                            "probability": 0.9911,
+                                            "type": "Organization",
+                                            "normalized_text": "Palmeiras"
+                                        }
+                                    ],
+                                    "mentions": [
+                                        {
+                                            "start": 0,
+                                            "end": 10,
+                                            "username": "cartolafc",
+                                            "id": "10075202"
+                                        }
+                                    ]
+                                },
+                                "text": "@cartolafc não vai ter nenhum posicionamento em relação a correção da súmula do jogo do Palmeiras? sério? cada dia mais vocês perdem a credibilidade! \no fim de vocês tá bem próximo.",
+                                "in_reply_to_user_id": "10075202",
+                                "source": "Twitter for Android",
+                                "possibly_sensitive": false,
+                                "author_id": "1133292197246308353",
+                                "id": "1569682023794757633",
+                                "referenced_tweets": [
+                                    {
+                                        "type": "replied_to",
+                                        "id": "1569676330823712769"
+                                    }
+                                ],
+                                "created_at": "2022-09-13T13:38:52.000Z"
+                            },
+                            {
+                                "lang": "pt",
+                                "entities": {
+                                    "mentions": [
+                                        {
+                                            "start": 0,
+                                            "end": 8,
+                                            "username": "u2sussu",
+                                            "id": "36347635"
+                                        },
+                                        {
+                                            "start": 9,
+                                            "end": 19,
+                                            "username": "cartolafc",
+                                            "id": "10075202"
+                                        }
+                                    ]
+                                },
+                                "text": "@u2sussu @cartolafc Beleza então . E vão voltar todos os erros dos Júizes anteriores. Já perdi mais de 1000 nessa desg. por erros. Agora que ganhei vou ter que devolver dinheiro?",
+                                "in_reply_to_user_id": "36347635",
+                                "source": "Twitter Web App",
+                                "possibly_sensitive": false,
+                                "author_id": "715146871933640704",
+                                "id": "1569490355976024066",
+                                "referenced_tweets": [
+                                    {
+                                        "type": "replied_to",
+                                        "id": "1569472093020106759"
+                                    }
+                                ],
+                                "created_at": "2022-09-13T00:57:15.000Z"
+                            },
+                            {
+                                "entities": {
+                                    "urls": [
+                                        {
+                                            "start": 84,
+                                            "end": 107,
+                                            "url": "https://t.co/KvNLqWqmxK",
+                                            "expanded_url": "https://youtube.com/c/ORGULHOALVINEGRO-%E5%BD%A1",
+                                            "display_url": "youtube.com/c/ORGULHOALVIN…",
+                                            "images": [
+                                                {
+                                                    "url": "https://pbs.twimg.com/news_img/1568656191965863950/Bm-T5qh8?format=jpg&name=orig",
+                                                    "width": 900,
+                                                    "height": 900
+                                                },
+                                                {
+                                                    "url": "https://pbs.twimg.com/news_img/1568656191965863950/Bm-T5qh8?format=jpg&name=150x150",
+                                                    "width": 150,
+                                                    "height": 150
+                                                }
+                                            ],
+                                            "status": 200,
+                                            "title": "ORGULHO ALVINEGRO ★彡",
+                                            "description": "Canal Orgulho Alvinegro é um canal no Youtube dos Irmãos Cardoso, Paulo Roberto Cardoso (PRC) e Fernando Cardoso, estamos há muitos e muitos anos acompanhando o Glorioso Botafogo onde quer que ele esteja. Juntamente com os irmãos, estão os nossos amigos Nilson Teixeira (Canal Terapia Alvinegra), Marivaldo Evangelista e Leandro Costa. Fazemos lives com notícias, pré-jogo, pós-jogo do Botafogo de Futebol e Regatas. Vídeos de músicas do Botafogo feitas por nosso compositor Paulo Roberto Cardoso (PRC) Acompanhamos os campeonatos de Remo do nosso querido Botafogo de Regatas, com lives e vídeos das competições. Quer ajudar o canal a crescer? INSCREVA-SE, deixe seu LIKE e COMENTÁRIOS. Contatos para parcerias: fjscardoso1963@gmail.com e whatzapp: (21)99192-2127",
+                                            "unwound_url": "https://www.youtube.com/c/ORGULHOALVINEGRO-%E5%BD%A1"
+                                        },
+                                        {
+                                            "start": 266,
+                                            "end": 289,
+                                            "url": "https://t.co/Gx91RYTSwx",
+                                            "expanded_url": "https://twitter.com/fjscardoso1963/status/1569693414559518721/photo/1",
+                                            "display_url": "pic.twitter.com/Gx91RYTSwx",
+                                            "media_key": "3_1569693363879792644"
+                                        }
+                                    ],
+                                    "annotations": [
+                                        {
+                                            "start": 135,
+                                            "end": 141,
+                                            "probability": 0.9454,
+                                            "type": "Product",
+                                            "normalized_text": "TWITTER"
+                                        }
+                                    ],
+                                    "mentions": [
+                                        {
+                                            "start": 145,
+                                            "end": 161,
+                                            "username": "OrgulhoAlvineg1",
+                                            "id": "1538239899547074560"
+                                        },
+                                        {
+                                            "start": 225,
+                                            "end": 240,
+                                            "username": "fjscardoso1963",
+                                            "id": "1512565766113091595"
+                                        },
+                                        {
+                                            "start": 241,
+                                            "end": 256,
+                                            "username": "GlorifogoPaulo",
+                                            "id": "350060391"
+                                        },
+                                        {
+                                            "start": 257,
+                                            "end": 265,
+                                            "username": "fogao07",
+                                            "id": "128028031"
+                                        }
+                                    ]
+                                },
+                                "lang": "pt",
+                                "text": "HOJE TERÇA 13/09 ÀS 19H TEM LIVE ORGULHO ALVINEGRO. COMEÇANDO PRÉ-JOGO BOTA X COXA.\nhttps://t.co/KvNLqWqmxK\nSIGAM NOSSA PÁGINA AQUI NO TWITTER: \n@OrgulhoAlvineg1 e IREMOS SEGUI-LOS DE VOLTA!! \"FOGÃO SEGUE FOGÃO\" OBRIGADO!!!\n\n@fjscardoso1963 @GlorifogoPaulo @fogao07 https://t.co/Gx91RYTSwx",
+                                "source": "Twitter Web App",
+                                "possibly_sensitive": false,
+                                "author_id": "1512565766113091595",
+                                "id": "1569693414559518721",
+                                "created_at": "2022-09-13T14:24:08.000Z"
+                            },
+                            {
+                                "lang": "pt",
+                                "entities": {
+                                    "mentions": [
+                                        {
+                                            "start": 0,
+                                            "end": 13,
+                                            "username": "ccostacaique",
+                                            "id": "1133292197246308353"
+                                        },
+                                        {
+                                            "start": 14,
+                                            "end": 26,
+                                            "username": "edmundocrvg",
+                                            "id": "959416219949584385"
+                                        },
+                                        {
+                                            "start": 27,
+                                            "end": 37,
+                                            "username": "cartolafc",
+                                            "id": "10075202"
+                                        }
+                                    ]
+                                },
+                                "text": "@ccostacaique @edmundocrvg @cartolafc Não teve msm não ..",
+                                "in_reply_to_user_id": "1133292197246308353",
+                                "source": "Twitter for Android",
+                                "possibly_sensitive": false,
+                                "author_id": "337894856",
+                                "id": "1569692964611293185",
+                                "referenced_tweets": [
+                                    {
+                                        "type": "replied_to",
+                                        "id": "1569692809912881152"
+                                    }
+                                ],
+                                "created_at": "2022-09-13T14:22:20.000Z"
+                            },
+                            {
+                                "lang": "pt",
+                                "text": "FLAMENGUISTA SEGUE FLAMENGUISTA⚫\uD83D\uDD34\uD83D\uDCAA\uD83C\uDFFE⚡\n\n⚫RT ESSE TWEET\uD83D\uDD34\n⚫SIGA QUEM DER FAV\uD83D\uDD34\n⚫SIGA QUEM DER RT\uD83D\uDD34\n⚫SIGA QUEM TE SEGUIR\uD83D\uDD34\n⚫️ SIGA QUEM CURTIR SEU COMENTÁRIO \uD83D\uDD34\n\n➡ Vou seguir todos que derem RT/e me seguir.\n#RNsegueRN\n#flamengomalvadao \n#Flamengo #Brasileirao2022\n#SRN",
+                                "source": "Twitter for Android",
+                                "possibly_sensitive": false,
+                                "author_id": "1060682614594514944",
+                                "entities": {
+                                    "hashtags": [
+                                        {
+                                            "start": 198,
+                                            "end": 208,
+                                            "tag": "RNsegueRN"
+                                        },
+                                        {
+                                            "start": 209,
+                                            "end": 226,
+                                            "tag": "flamengomalvadao"
+                                        },
+                                        {
+                                            "start": 228,
+                                            "end": 237,
+                                            "tag": "Flamengo"
+                                        },
+                                        {
+                                            "start": 238,
+                                            "end": 254,
+                                            "tag": "Brasileirao2022"
+                                        },
+                                        {
+                                            "start": 255,
+                                            "end": 259,
+                                            "tag": "SRN"
+                                        }
+                                    ]
+                                },
+                                "id": "1569483990771302400",
+                                "created_at": "2022-09-13T00:31:57.000Z"
+                            },
+                            {
+                                "lang": "pt",
+                                "entities": {
+                                    "mentions": [
+                                        {
+                                            "start": 0,
+                                            "end": 12,
+                                            "username": "edmundocrvg",
+                                            "id": "959416219949584385"
+                                        },
+                                        {
+                                            "start": 13,
+                                            "end": 23,
+                                            "username": "cartolafc",
+                                            "id": "10075202"
+                                        }
+                                    ]
+                                },
+                                "text": "@edmundocrvg @cartolafc não teve? procure se informar amigo.",
+                                "in_reply_to_user_id": "959416219949584385",
+                                "source": "Twitter for Android",
+                                "possibly_sensitive": false,
+                                "author_id": "1133292197246308353",
+                                "id": "1569692809912881152",
+                                "referenced_tweets": [
+                                    {
+                                        "type": "replied_to",
+                                        "id": "1569682848268914689"
+                                    }
+                                ],
+                                "created_at": "2022-09-13T14:21:44.000Z"
+                            },
+                            {
+                                "lang": "pt",
+                                "entities": {
+                                    "mentions": [
+                                        {
+                                            "start": 0,
+                                            "end": 13,
+                                            "username": "ccostacaique",
+                                            "id": "1133292197246308353"
+                                        },
+                                        {
+                                            "start": 14,
+                                            "end": 24,
+                                            "username": "cartolafc",
+                                            "id": "10075202"
+                                        }
+                                    ]
+                                },
+                                "text": "@ccostacaique @cartolafc Mas nem teve nenhuma correção, cara kkkkkkkk tá morrendo de véspera aí",
+                                "in_reply_to_user_id": "1133292197246308353",
+                                "source": "Twitter for iPhone",
+                                "possibly_sensitive": false,
+                                "author_id": "959416219949584385",
+                                "id": "1569682848268914689",
+                                "referenced_tweets": [
+                                    {
+                                        "type": "replied_to",
+                                        "id": "1569682023794757633"
+                                    }
+                                ],
+                                "created_at": "2022-09-13T13:42:08.000Z"
+                            },
+                            {
+                                "entities": {
+                                    "urls": [
+                                        {
+                                            "start": 92,
+                                            "end": 115,
+                                            "url": "https://t.co/LwVMDaeQoT",
+                                            "expanded_url": "https://youtube.com/c/ORGULHOALVINEGRO-%E5%BD%A1",
+                                            "display_url": "youtube.com/c/ORGULHOALVIN…",
+                                            "images": [
+                                                {
+                                                    "url": "https://pbs.twimg.com/news_img/1568656191965863950/Bm-T5qh8?format=jpg&name=orig",
+                                                    "width": 900,
+                                                    "height": 900
+                                                },
+                                                {
+                                                    "url": "https://pbs.twimg.com/news_img/1568656191965863950/Bm-T5qh8?format=jpg&name=150x150",
+                                                    "width": 150,
+                                                    "height": 150
+                                                }
+                                            ],
+                                            "status": 200,
+                                            "title": "ORGULHO ALVINEGRO ★彡",
+                                            "description": "Canal Orgulho Alvinegro é um canal no Youtube dos Irmãos Cardoso, Paulo Roberto Cardoso (PRC) e Fernando Cardoso, estamos há muitos e muitos anos acompanhando o Glorioso Botafogo onde quer que ele esteja. Juntamente com os irmãos, estão os nossos amigos Nilson Teixeira (Canal Terapia Alvinegra), Marivaldo Evangelista e Leandro Costa. Fazemos lives com notícias, pré-jogo, pós-jogo do Botafogo de Futebol e Regatas. Vídeos de músicas do Botafogo feitas por nosso compositor Paulo Roberto Cardoso (PRC) Acompanhamos os campeonatos de Remo do nosso querido Botafogo de Regatas, com lives e vídeos das competições. Quer ajudar o canal a crescer? INSCREVA-SE, deixe seu LIKE e COMENTÁRIOS. Contatos para parcerias: fjscardoso1963@gmail.com e whatzapp: (21)99192-2127",
+                                            "unwound_url": "https://www.youtube.com/c/ORGULHOALVINEGRO-%E5%BD%A1"
+                                        },
+                                        {
+                                            "start": 274,
+                                            "end": 297,
+                                            "url": "https://t.co/w0ynsp0xgW",
+                                            "expanded_url": "https://twitter.com/OrgulhoAlvineg1/status/1569692003297886209/photo/1",
+                                            "display_url": "pic.twitter.com/w0ynsp0xgW",
+                                            "media_key": "3_1569690229430259712"
+                                        }
+                                    ],
+                                    "annotations": [
+                                        {
+                                            "start": 71,
+                                            "end": 78,
+                                            "probability": 0.9871,
+                                            "type": "Organization",
+                                            "normalized_text": "BOTAFOGO"
+                                        },
+                                        {
+                                            "start": 82,
+                                            "end": 89,
+                                            "probability": 0.9971,
+                                            "type": "Organization",
+                                            "normalized_text": "CORITIBA"
+                                        },
+                                        {
+                                            "start": 143,
+                                            "end": 149,
+                                            "probability": 0.939,
+                                            "type": "Product",
+                                            "normalized_text": "TWITTER"
+                                        }
+                                    ],
+                                    "mentions": [
+                                        {
+                                            "start": 153,
+                                            "end": 169,
+                                            "username": "OrgulhoAlvineg1",
+                                            "id": "1538239899547074560"
+                                        },
+                                        {
+                                            "start": 233,
+                                            "end": 248,
+                                            "username": "fjscardoso1963",
+                                            "id": "1512565766113091595"
+                                        },
+                                        {
+                                            "start": 249,
+                                            "end": 264,
+                                            "username": "GlorifogoPaulo",
+                                            "id": "350060391"
+                                        },
+                                        {
+                                            "start": 265,
+                                            "end": 273,
+                                            "username": "fogao07",
+                                            "id": "128028031"
+                                        }
+                                    ]
+                                },
+                                "lang": "pt",
+                                "text": "HOJE TERÇA 13/09 ÀS 19H TEM LIVE ORGULHO ALVINEGRO. COMEÇANDO PRÉ-JOGO BOTAFOGO X CORITIBA.\nhttps://t.co/LwVMDaeQoT\nSIGAM NOSSA PÁGINA AQUI NO TWITTER: \n@OrgulhoAlvineg1 e IREMOS SEGUI-LOS DE VOLTA!! \"FOGÃO SEGUE FOGÃO\" OBRIGADO!!!\n\n@fjscardoso1963 @GlorifogoPaulo @fogao07 https://t.co/w0ynsp0xgW",
+                                "source": "Twitter Web App",
+                                "possibly_sensitive": false,
+                                "author_id": "1538239899547074560",
+                                "id": "1569692003297886209",
+                                "created_at": "2022-09-13T14:18:31.000Z"
+                            },
+                            {
+                                "lang": "pt",
+                                "entities": {
+                                    "annotations": [
+                                        {
+                                            "start": 100,
+                                            "end": 106,
+                                            "probability": 0.9767,
+                                            "type": "Product",
+                                            "normalized_text": "Twitter"
+                                        }
+                                    ],
+                                    "mentions": [
+                                        {
+                                            "start": 0,
+                                            "end": 15,
+                                            "username": "cartolaplaneta",
+                                            "id": "1281772101523976192"
+                                        },
+                                        {
+                                            "start": 16,
+                                            "end": 32,
+                                            "username": "diegobarpereira",
+                                            "id": "896533849"
+                                        },
+                                        {
+                                            "start": 33,
+                                            "end": 43,
+                                            "username": "cartolafc",
+                                            "id": "10075202"
+                                        }
+                                    ]
+                                },
+                                "text": "@cartolaplaneta @diegobarpereira @cartolafc Quem disse? É oficial? Se não é oficial é só falácia de Twitter.",
+                                "in_reply_to_user_id": "1281772101523976192",
+                                "source": "Twitter for iPhone",
+                                "possibly_sensitive": false,
+                                "author_id": "959416219949584385",
+                                "id": "1569683653617385473",
+                                "referenced_tweets": [
+                                    {
+                                        "type": "replied_to",
+                                        "id": "1569673903273811970"
+                                    }
+                                ],
+                                "created_at": "2022-09-13T13:45:20.000Z"
+                            },
+                            {
+                                "lang": "pt",
+                                "entities": {
+                                    "mentions": [
+                                        {
+                                            "start": 31,
+                                            "end": 41,
+                                            "username": "cartolafc",
+                                            "id": "10075202"
+                                        }
+                                    ]
+                                },
+                                "text": "Alguém sabe a justificativa do @cartolafc para não fechar o mercado de novo e fazer a atualização correta?\nNão precisa falar de pagamento do Cartola express porque é passível de mudança, visto que casas de aposta fazem isso dia sim dia não",
+                                "source": "Twitter Web App",
+                                "possibly_sensitive": false,
+                                "author_id": "1281772101523976192",
+                                "id": "1569669647175385090",
+                                "created_at": "2022-09-13T12:49:41.000Z"
+                            },
+                            {
+                                "lang": "pt",
+                                "entities": {
+                                    "mentions": [
+                                        {
+                                            "start": 0,
+                                            "end": 12,
+                                            "username": "CartolaCFDS",
+                                            "id": "576296252"
+                                        },
+                                        {
+                                            "start": 13,
+                                            "end": 23,
+                                            "username": "cartolafc",
+                                            "id": "10075202"
+                                        }
+                                    ]
+                                },
+                                "text": "@CartolaCFDS @cartolafc kkkkkkkkkkkkkkk ao som do mar e a luz do céu profundo",
+                                "in_reply_to_user_id": "576296252",
+                                "source": "Twitter Web App",
+                                "possibly_sensitive": false,
+                                "author_id": "1281772101523976192",
+                                "id": "1569680115998523392",
+                                "referenced_tweets": [
+                                    {
+                                        "type": "replied_to",
+                                        "id": "1569679521703514112"
+                                    }
+                                ],
+                                "created_at": "2022-09-13T13:31:17.000Z"
+                            },
+                            {
+                                "lang": "pt",
+                                "entities": {
+                                    "mentions": [
+                                        {
+                                            "start": 0,
+                                            "end": 16,
+                                            "username": "quarencartola22",
+                                            "id": "1409578152142249984"
+                                        },
+                                        {
+                                            "start": 17,
+                                            "end": 32,
+                                            "username": "cartolaplaneta",
+                                            "id": "1281772101523976192"
+                                        },
+                                        {
+                                            "start": 33,
+                                            "end": 43,
+                                            "username": "cartolafc",
+                                            "id": "10075202"
+                                        }
+                                    ]
+                                },
+                                "text": "@quarencartola22 @cartolaplaneta @cartolafc Abriram margem para isso, precisam arrumar, caso seja alterado!",
+                                "in_reply_to_user_id": "1409578152142249984",
+                                "source": "Twitter for iPhone",
+                                "possibly_sensitive": false,
+                                "author_id": "231511134",
+                                "id": "1569690044805292032",
+                                "referenced_tweets": [
+                                    {
+                                        "type": "replied_to",
+                                        "id": "1569681020391137282"
+                                    }
+                                ],
+                                "created_at": "2022-09-13T14:10:44.000Z"
+                            },
+                            {
+                                "lang": "pt",
+                                "entities": {
+                                    "mentions": [
+                                        {
+                                            "start": 0,
+                                            "end": 15,
+                                            "username": "cartolaplaneta",
+                                            "id": "1281772101523976192"
+                                        },
+                                        {
+                                            "start": 16,
+                                            "end": 26,
+                                            "username": "cartolafc",
+                                            "id": "10075202"
+                                        }
+                                    ]
+                                },
+                                "text": "@cartolaplaneta @cartolafc Eles devem estar aguardando a mudança da súmula para só aí verem o que vão fazer. O que começa mal não tem como terminar bem. Erraram lá atrás e agora estão numa situação delicada de decisão.",
+                                "in_reply_to_user_id": "1281772101523976192",
+                                "source": "Twitter for Android",
+                                "possibly_sensitive": false,
+                                "author_id": "1409578152142249984",
+                                "id": "1569681020391137282",
+                                "referenced_tweets": [
+                                    {
+                                        "type": "replied_to",
+                                        "id": "1569669647175385090"
+                                    }
+                                ],
+                                "created_at": "2022-09-13T13:34:53.000Z"
+                            },
+                            {
+                                "lang": "pt",
+                                "entities": {
+                                    "mentions": [
+                                        {
+                                            "start": 0,
+                                            "end": 15,
+                                            "username": "TeamBoleiragem",
+                                            "id": "1436673816227426306"
+                                        },
+                                        {
+                                            "start": 16,
+                                            "end": 32,
+                                            "username": "RyanNog71152572",
+                                            "id": "1411722787258093575"
+                                        },
+                                        {
+                                            "start": 33,
+                                            "end": 48,
+                                            "username": "robertomaleson",
+                                            "id": "2738394422"
+                                        },
+                                        {
+                                            "start": 49,
+                                            "end": 59,
+                                            "username": "cartolafc",
+                                            "id": "10075202"
+                                        }
+                                    ]
+                                },
+                                "text": "@TeamBoleiragem @RyanNog71152572 @robertomaleson @cartolafc Passou do prazo. Já era",
+                                "in_reply_to_user_id": "1436673816227426306",
+                                "source": "Twitter for Android",
+                                "possibly_sensitive": false,
+                                "author_id": "1511018154167787534",
+                                "id": "1569670971593834498",
+                                "referenced_tweets": [
+                                    {
+                                        "type": "replied_to",
+                                        "id": "1569537466063003649"
+                                    }
+                                ],
+                                "created_at": "2022-09-13T12:54:57.000Z"
+                            },
+                            {
+                                "lang": "pt",
+                                "entities": {
+                                    "annotations": [
+                                        {
+                                            "start": 31,
+                                            "end": 39,
+                                            "probability": 0.9979,
+                                            "type": "Organization",
+                                            "normalized_text": "Palmeiras"
+                                        },
+                                        {
+                                            "start": 60,
+                                            "end": 65,
+                                            "probability": 0.8079,
+                                            "type": "Person",
+                                            "normalized_text": "Murilo"
+                                        }
+                                    ],
+                                    "mentions": [
+                                        {
+                                            "start": 0,
+                                            "end": 10,
+                                            "username": "cartolafc",
+                                            "id": "10075202"
+                                        }
+                                    ]
+                                },
+                                "text": "@cartolafc A mudança do gol do Palmeiras, na súmula, para o Murilo, afetará o Cartola?",
+                                "in_reply_to_user_id": "10075202",
+                                "source": "Twitter for Android",
+                                "possibly_sensitive": false,
+                                "author_id": "61337778",
+                                "id": "1569686301934505984",
+                                "referenced_tweets": [
+                                    {
+                                        "type": "replied_to",
+                                        "id": "1569420412668215296"
+                                    }
+                                ],
+                                "created_at": "2022-09-13T13:55:52.000Z"
+                            },
+                            {
+                                "lang": "pt",
+                                "entities": {
+                                    "annotations": [
+                                        {
+                                            "start": 69,
+                                            "end": 74,
+                                            "probability": 0.9055,
+                                            "type": "Person",
+                                            "normalized_text": "Murilo"
+                                        }
+                                    ],
+                                    "mentions": [
+                                        {
+                                            "start": 0,
+                                            "end": 9,
+                                            "username": "PhillTds",
+                                            "id": "337894856"
+                                        },
+                                        {
+                                            "start": 10,
+                                            "end": 20,
+                                            "username": "cartolafc",
+                                            "id": "10075202"
+                                        }
+                                    ]
+                                },
+                                "text": "@PhillTds @cartolafc Foi corrigida, mudaram a súmula e deram gol pro Murilo. Espero que o Cartola mude essa regra de sempre seguir súmula a partir do próximo ano. Futebol brasileiro tem erros grotescos de vez em quando, não dá pro jogo engolir essas situações mesmo estando na cara que está errado.",
+                                "in_reply_to_user_id": "337894856",
+                                "source": "Twitter for Android",
+                                "possibly_sensitive": false,
+                                "author_id": "1260826136399040512",
+                                "id": "1569683763839520771",
+                                "referenced_tweets": [
+                                    {
+                                        "type": "replied_to",
+                                        "id": "1569682908318662656"
+                                    }
+                                ],
+                                "created_at": "2022-09-13T13:45:47.000Z"
+                            },
+                            {
+                                "lang": "pt",
+                                "entities": {
+                                    "mentions": [
+                                        {
+                                            "start": 0,
+                                            "end": 16,
+                                            "username": "PauloJu86684411",
+                                            "id": "1260826136399040512"
+                                        },
+                                        {
+                                            "start": 17,
+                                            "end": 26,
+                                            "username": "PhillTds",
+                                            "id": "337894856"
+                                        },
+                                        {
+                                            "start": 27,
+                                            "end": 37,
+                                            "username": "cartolafc",
+                                            "id": "10075202"
+                                        },
+                                        {
+                                            "start": 38,
+                                            "end": 48,
+                                            "username": "cartolafc",
+                                            "id": "10075202"
+                                        },
+                                        {
+                                            "start": 123,
+                                            "end": 129,
+                                            "username": "globo",
+                                            "id": "67411820"
+                                        }
+                                    ]
+                                },
+                                "text": "@PauloJu86684411 @PhillTds @cartolafc @cartolafc diz q segue a súmula  , daí segue errado, daí súmula corrige e o cartola? @globo mantém errado!",
+                                "in_reply_to_user_id": "1260826136399040512",
+                                "source": "Twitter for Android",
+                                "possibly_sensitive": false,
+                                "author_id": "452450968",
+                                "id": "1569684830463623168",
+                                "referenced_tweets": [
+                                    {
+                                        "type": "replied_to",
+                                        "id": "1569683763839520771"
+                                    }
+                                ],
+                                "created_at": "2022-09-13T13:50:01.000Z"
+                            },
+                            {
+                                "lang": "pt",
+                                "entities": {
+                                    "annotations": [
+                                        {
+                                            "start": 110,
+                                            "end": 115,
+                                            "probability": 0.941,
+                                            "type": "Person",
+                                            "normalized_text": "Murilo"
+                                        }
+                                    ],
+                                    "mentions": [
+                                        {
+                                            "start": 0,
+                                            "end": 16,
+                                            "username": "jonatas28698646",
+                                            "id": "1551350067365351424"
+                                        },
+                                        {
+                                            "start": 17,
+                                            "end": 33,
+                                            "username": "facoseustrabal1",
+                                            "id": "1409691045420482563"
+                                        },
+                                        {
+                                            "start": 34,
+                                            "end": 50,
+                                            "username": "Adriano14933560",
+                                            "id": "1205584214583853056"
+                                        },
+                                        {
+                                            "start": 51,
+                                            "end": 61,
+                                            "username": "cartolafc",
+                                            "id": "10075202"
+                                        },
+                                        {
+                                            "start": 62,
+                                            "end": 74,
+                                            "username": "AthleticoPR",
+                                            "id": "97208991"
+                                        },
+                                        {
+                                            "start": 75,
+                                            "end": 83,
+                                            "username": "geglobo",
+                                            "id": "10842792"
+                                        }
+                                    ]
+                                },
+                                "text": "@jonatas28698646 @facoseustrabal1 @Adriano14933560 @cartolafc @AthleticoPR @geglobo Resolvido, súmula deu pro Murilo, e a desculpa??",
+                                "in_reply_to_user_id": "1551350067365351424",
+                                "source": "Twitter for Android",
+                                "possibly_sensitive": false,
+                                "author_id": "797787464014458881",
+                                "id": "1569670145936707585",
+                                "referenced_tweets": [
+                                    {
+                                        "type": "replied_to",
+                                        "id": "1568992631308402689"
+                                    }
+                                ],
+                                "created_at": "2022-09-13T12:51:40.000Z"
+                            },
+                            {
+                                "entities": {
+                                    "urls": [
+                                        {
+                                            "start": 137,
+                                            "end": 160,
+                                            "url": "https://t.co/rzVOKTPmkK",
+                                            "expanded_url": "https://twitter.com/cartolafc/status/1569454331321266177/photo/1",
+                                            "display_url": "pic.twitter.com/rzVOKTPmkK",
+                                            "media_key": "3_1569454255408291841"
+                                        }
+                                    ],
+                                    "annotations": [
+                                        {
+                                            "start": 87,
+                                            "end": 94,
+                                            "probability": 0.7018,
+                                            "type": "Place",
+                                            "normalized_text": "Brasília"
+                                        }
+                                    ]
+                                },
+                                "lang": "pt",
+                                "text": "MERCADO ABERTO\n\nVale lembrar que ele volta a fechar no próximo sábado (17), às 16h (de Brasília). Monte o seu time e boa 27ª rodada.  \uD83C\uDFA9\uD83E\uDDE1 https://t.co/rzVOKTPmkK",
+                                "source": "Twitter Web App",
+                                "possibly_sensitive": false,
+                                "author_id": "10075202",
+                                "id": "1569454331321266177",
+                                "created_at": "2022-09-12T22:34:06.000Z"
+                            },
+                            {
+                                "lang": "pt",
+                                "entities": {
+                                    "mentions": [
+                                        {
+                                            "start": 0,
+                                            "end": 16,
+                                            "username": "diegobarpereira",
+                                            "id": "896533849"
+                                        },
+                                        {
+                                            "start": 17,
+                                            "end": 27,
+                                            "username": "cartolafc",
+                                            "id": "10075202"
+                                        }
+                                    ]
+                                },
+                                "text": "@diegobarpereira @cartolafc Ja foi dito que vai mudar e eles nem se pronunciaram, poderia ter pelo menos fechado de novo até a situação se definir",
+                                "in_reply_to_user_id": "896533849",
+                                "source": "Twitter Web App",
+                                "possibly_sensitive": false,
+                                "author_id": "1281772101523976192",
+                                "id": "1569673903273811970",
+                                "referenced_tweets": [
+                                    {
+                                        "type": "replied_to",
+                                        "id": "1569671410368512001"
+                                    }
+                                ],
+                                "created_at": "2022-09-13T13:06:36.000Z"
+                            },
+                            {
+                                "lang": "pt",
+                                "entities": {
+                                    "mentions": [
+                                        {
+                                            "start": 0,
+                                            "end": 14,
+                                            "username": "Lucaaaasssss1",
+                                            "id": "1567968237131911174"
+                                        },
+                                        {
+                                            "start": 15,
+                                            "end": 25,
+                                            "username": "cartolafc",
+                                            "id": "10075202"
+                                        }
+                                    ]
+                                },
+                                "text": "@Lucaaaasssss1 @cartolafc Respeita rapaz,  dê sua opinião sem precisar ofender a opinião do outro.",
+                                "in_reply_to_user_id": "1567968237131911174",
+                                "source": "Twitter for Android",
+                                "possibly_sensitive": false,
+                                "author_id": "933836452919685126",
+                                "id": "1569681946644516864",
+                                "referenced_tweets": [
+                                    {
+                                        "type": "replied_to",
+                                        "id": "1569680603724881922"
+                                    }
+                                ],
+                                "created_at": "2022-09-13T13:38:34.000Z"
+                            }
+                        ],
+                        "places": [
+                            {
+                                "id": "299be9e48d05ecaf",
+                                "country": "Brazil",
+                                "place_type": "city",
+                                "full_name": "Japeri, Brasil",
+                                "name": "Japeri",
+                                "geo": {
+                                    "type": "Feature",
+                                    "bbox": [
+                                        -43.671283,
+                                        -22.722685,
+                                        -43.53394,
+                                        -22.612245
+                                    ],
+                                    "properties": {}
+                                },
+                                "country_code": "BR"
+                            },
+                            {
+                                "id": "68e019afec7d0ba5",
+                                "country": "Brazil",
+                                "place_type": "city",
+                                "full_name": "Sao Paulo, Brazil",
+                                "name": "Sao Paulo",
+                                "geo": {
+                                    "type": "Feature",
+                                    "bbox": [
+                                        -46.826039,
+                                        -24.008814,
+                                        -46.365052,
+                                        -23.356792
+                                    ],
+                                    "properties": {}
+                                },
+                                "country_code": "BR"
+                            },
+                            {
+                                "id": "d9d978b087a92583",
+                                "country": "Brazil",
+                                "place_type": "city",
+                                "full_name": "Belo Horizonte, Brazil",
+                                "name": "Belo Horizonte",
+                                "geo": {
+                                    "type": "Feature",
+                                    "bbox": [
+                                        -44.062789,
+                                        -20.059816,
+                                        -43.856856,
+                                        -19.777568
+                                    ],
+                                    "properties": {}
+                                },
+                                "country_code": "BR"
+                            }
+                        ]
+                    },
+                    {
+                        "meta": {
+                            "newest_id": "1569710871236018177",
+                            "oldest_id": "1569682848268914689",
+                            "result_count": 100,
+                            "next_token": "b26v89c19zqg8o3fpz8nops006y1jbb6iis5hy4szakjh"
+                        }
+                    }
+                ]
+            }
+        }
+    }
