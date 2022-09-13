@@ -7,46 +7,46 @@ array(
     'tweets' => $result->data,
     'users' => $result->includes->users
 );
-//exibir os 10 primeiros tweets
-for ($i = 0; $i < 2; $i++) {
-    echo $result->data[$i]->text . '<br>';
-    echo "Nome: " . $result->includes->users[$i]->name . '<br>';
-    echo "Usuário: @" . $result->includes->users[$i]->username . '<br>';
-    //Mostra img do usuário
-    echo "Foto: " . '<img src="' . $result->includes->users[$i]->profile_image_url . '" width="50" height="50" alt="...">' . '<br>';
-    echo "Descrição: " . $result->includes->users[$i]->description . '<br>';
-    if (isset($result->includes->users[$i]->location)) {
-        echo "Localização: " . $result->includes->users[$i]->location . '<br>';
-    } else {
-        echo "Localização: Não informada" . '<br>';
+function exibirTweets($result)
+{
+    //LISTCARD DO TWITTER PARA EXIBIR OS TWEETS 1 POR 3
+    $tweets = $result->data;
+    $users = $result->includes->users;
+    $i = 0;
+
+    foreach ($tweets as $tweet) {
+        $user = $users[$i];
+        $i++;
+        if ($i < 3) {
+        
+        $date = date_create($tweet->created_at);
+        $date = date_format($date, 'd/m/Y H:i');
+        $text = $tweet->text;
+        $text = str_replace('https://t.co/', '', $text);
+        $text = str_replace('http://t.co/', '', $text);
+        $text = str_replace('https://', '', $text);
+        $text = str_replace('http://', '', $text);
+        $text = str_replace('www.', '', $text);
+        $text = str_replace(' ', '', $text);
+
+        echo '
+        <div class="card text-center">
+            <div class="card-body p-3 mb-2 bg-dark text-white">
+                <div class="row">
+                    <div class="col-2">
+                        <img src="' . $user->profile_image_url . '" class="img-fluid" alt="...">
+                    </div>
+                    <div class="col-10">
+                        <h5 class="card-title">' . $user->name . '</h5>
+                        <p class="card-text">' . $text . '</p>
+                        <p class="card-text">' . $date . '</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        ';
     }
-    echo '<table border="1">';
-    echo '<tr>';
-    echo '<td>Seguidores</td>';
-    echo '<td>Seguindo</td>';
-    echo '<td>Tweets</td>';
-    echo '<td>Verficado</td>';
-    echo '<td>Perfil</td>';
-    echo '</tr>';
-    echo '<tr>';
-    echo '<td>' . $result->includes->users[$i]->public_metrics->followers_count . '</td>';
-    echo '<td>' . $result->includes->users[$i]->public_metrics->following_count . '</td>';
-    echo '<td>' . $result->includes->users[$i]->public_metrics->tweet_count . '</td>';
-    if ($result->includes->users[$i]->verified == true) {
-        echo '<td>Sim</td>';
-    } else {
-        echo '<td>Não</td>';
-    }
-    echo '<td><a href="https://twitter.com/' . $result->includes->users[$i]->username . '" target="_blank">Perfil</a></td>';
-    echo '</tr>';
-    echo '</table>';
-    echo '<br>';
-    $data = $result->data[$i]->created_at; //2021-12-01T23:59:59.000Z
-    date_default_timezone_set('America/Sao_Paulo'); //Fuso horário de São Paulo
-    $data = date('d/m/Y H:i:s', strtotime($data)); //Converte a data e hora para o formato brasileiro
-    echo "Publicado em: " . $data . '<br>'; //Exibe a data e hora
-    echo '<hr>';
 }
-    
+}
     
 //var_dump($result->includes);

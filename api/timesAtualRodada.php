@@ -11,7 +11,7 @@ function timesAtualRodada()
         foreach ($MercadoPorRodada['partidas'] as $partidas) {
             if ($partidas['clube_casa_id'] == $clubes['id']) {
 
-                while ($i < 10) {
+                while ($i < 1) {
                     
                     $date = date_create($partidas['partida_data']);
                     $partidaValida = str_replace(true, 'CartolaFC &copy', $partidas['valida']);

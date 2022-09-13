@@ -33,14 +33,13 @@
         <div class="container">
             <br>
             <div class="row">
-
                 <div class="col-md-12">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Noticias aqui em Breve</h5>
-                            <p class="card-text">Descrição das noticias em breve tudo aqui.</p>
-                            <a href="#" class="btn btn-dark">Mais detalhes</a>
-                        </div>
+                    <div>
+                        <?php
+                        require_once 'views/SearchTweet.php';
+                        $Twiiter = exibirTweets($result);
+                        echo $Twiiter;
+                        ?>
                     </div>
                 </div>
             </div>
@@ -65,15 +64,17 @@
                     ?>
                 </div>
                 <div class="col-md-4">
-                    <?php
-                    require_once 'api/timesAtualRodada.php';
-                    require_once 'api/api.php';
-                      ?>
-                    <span class="d-block p-2 bg-success text-white">Rodada #<?php echo $statusMercado['rodada_atual']; ?></span>
-                    <?php
-                    $atualRodada = timesAtualRodada();
-                    echo $atualRodada;
-                    ?>
+                    <div>
+                        <?php
+                        require_once 'api/timesAtualRodada.php';
+                        require_once 'api/api.php';
+                        ?>
+                        <span class="d-block p-2 bg-success text-white">Rodada #<?php echo $statusMercado['rodada_atual']; ?></span>
+                        <?php
+                        $atualRodada = timesAtualRodada();
+                        echo $atualRodada;
+                        ?>
+                    </div>
                 </div>
             </div>
         </div>
