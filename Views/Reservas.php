@@ -48,75 +48,93 @@ function Reservas()
                     $scout = array(
                         "SG" => array(
                             "acao" => "Jogo sem sofrer gols", // Jogo sem sofrer gols
-                            "pontos" =>isset($scout['SG']) ? $scout['SG'] * 5.00 : 0 // Exibe a pontuação do atleta
+                            "pontos" =>isset($scout['SG']) ? $scout['SG'] * 5.00 : 0, // Exibe a pontuação do atleta
+                            "count" => isset($scout['SG']) ? $scout['SG'] : 0 // Exibe a quantidade de vezes que o atleta fez a ação
                     ),
                         "A" => array(
                             "acao" => "Assistência", // Assistência
-                            "pontos" => isset($todas['scout']['A']) ? $todas['scout']['A'] * 5.00 : 0
+                            "pontos" => isset($todas['scout']['A']) ? $todas['scout']['A'] * 5.00 : 0,
+                            "count" => isset($todas['scout']['A']) ? $todas['scout']['A'] : 0
                     ),
                         "DP" => array(
                             "acao" => "Defesa de pênalti", // Defesa de pênalti
-                            "pontos" => isset($todas['scout']['DP']) ? $todas['scout']['DP'] * 5.00 : 0
+                            "pontos" => isset($todas['scout']['DP']) ? $todas['scout']['DP'] * 5.00 : 0,
+                            "count" => isset($todas['scout']['DP']) ? $todas['scout']['DP'] : 0
                     ),
                         "DD" => array(
                             "acao" => "Defesa difícil", // Defesa difícil
-                            "pontos" => isset($todas['scout']['DD']) ? $todas['scout']['DD'] * 3.00 : 0
+                            "pontos" => isset($todas['scout']['DD']) ? $todas['scout']['DD'] * 3.00 : 0,
+                            "count" => isset($todas['scout']['DD']) ? $todas['scout']['DD'] : 0
                     ),
                         "RB" => array(
                             "acao" => "Roubada de bola", // Roubada de bola
-                            "pontos" => isset($todas['scout']['RB']) ? $todas['scout']['RB'] * 1.50 : 0
+                            "pontos" => isset($todas['scout']['RB']) ? $todas['scout']['RB'] * 1.50 : 0,
+                            "count" => isset($todas['scout']['RB']) ? $todas['scout']['RB'] : 0
                     ),
                         "FC" => array(
                             "acao" => "Falta cometida", // Falta cometida
-                            "pontos" => isset($todas['scout']['FC']) ? $todas['scout']['FC'] * -0.50 : 0
+                            "pontos" => isset($todas['scout']['FC']) ? $todas['scout']['FC'] * -0.50 : 0,
+                            "count" => isset($todas['scout']['FC']) ? $todas['scout']['FC'] : 0
                     ),
                         "FD" => array(
                             "acao" => "Finalização defendida", // Finalização defendida
-                            "pontos" => isset($todas['scout']['FD']) ? $todas['scout']['FD'] * 1.20 : 0
+                            "pontos" => isset($todas['scout']['FD']) ? $todas['scout']['FD'] * 1.20 : 0,
+                            "count" => isset($todas['scout']['FD']) ? $todas['scout']['FD'] : 0
                     ),
                         "FF" => array( 
                             "acao" => "Finalização para fora", // Finalização para fora
-                            "pontos" => isset($todas['scout']['FF']) ? $todas['scout']['FF'] * -0.80 : 0
+                            "pontos" => isset($todas['scout']['FF']) ? $todas['scout']['FF'] * -0.80 : 0,
+                            "count" => isset($todas['scout']['FF']) ? $todas['scout']['FF'] : 0
                     ),
                         "FS" => array(
                             "acao" => "Falta sofrida", // Falta sofrida
-                            "pontos" => isset($todas['scout']['FS']) ? $todas['scout']['FS'] * -0.50 : 0
+                            "pontos" => isset($todas['scout']['FS']) ? $todas['scout']['FS'] * -0.50 : 0,
+                            "count" => isset($todas['scout']['FS']) ? $todas['scout']['FS'] : 0
                     ),
                         "FT" => array(
                             "acao" => "Finalização na trave", // Finalização na trave
-                            "pontos" => isset($todas['scout']['FT']) ? $todas['scout']['FT'] * 1.50 : 0
+                            "pontos" => isset($todas['scout']['FT']) ? $todas['scout']['FT'] * 1.50 : 0,
+                            "count" => isset($todas['scout']['FT']) ? $todas['scout']['FT'] : 0
                     ),
                         "G" => array(
                             "acao" => "Gol", // Gol
-                            "pontos" => isset($todas['scout']['G']) ? $todas['scout']['G'] * 8.00 : 0
+                            "pontos" => isset($todas['scout']['G']) ? $todas['scout']['G'] * 8.00 : 0,
+                            "count" => isset($todas['scout']['G']) ? $todas['scout']['G'] : 0
                     ),
                         "GC" => array(
                             "acao" => "Gol contra", // Gol contra
-                            "pontos" => isset($todas['scout']['GC']) ? $todas['scout']['GC'] * -4.00 : 0
+                            "pontos" => isset($todas['scout']['GC']) ? $todas['scout']['GC'] * -4.00 : 0,
+                            "count" => isset($todas['scout']['GC']) ? $todas['scout']['GC'] : 0
                     ),
                         "GS" => array(
                             "acao" => "Gol sofrido", // Gol sofrido
-                            "pontos" => isset($todas['scout']['GS']) ? $todas['scout']['GS'] * -2.00 : 0
+                            "pontos" => isset($todas['scout']['GS']) ? $todas['scout']['GS'] * -2.00 : 0,
+                            "count" => isset($todas['scout']['GS']) ? $todas['scout']['GS'] : 0
                     ),
                         "I" => array(
                             "acao" => "Impedimento", // Impedimento
-                            "pontos" => isset($todas['scout']['I']) ? $todas['scout']['I'] * -0.50 : 0
+                            "pontos" => isset($todas['scout']['I']) ? $todas['scout']['I'] * -0.50 : 0,
+                            "count" => isset($todas['scout']['I']) ? $todas['scout']['I'] : 0
                     ),
                         "PE" => array(
                             "acao" => "Passe Errado", // Passe Errado
-                            "pontos" => isset($todas['scout']['PE']) ? $todas['scout']['PE'] * -0.50 : 0
+                            "pontos" => isset($todas['scout']['PE']) ? $todas['scout']['PE'] * -0.50 : 0,
+                            "count" => isset($todas['scout']['PE']) ? $todas['scout']['PE'] : 0
                     ),
                         "PP" => array(
                             "acao" => "Pênalti perdido para fora", // Pênalti perdido para fora
-                            "pontos" => isset($todas['scout']['PP']) ? $todas['scout']['PP'] * -2.00 : 0
+                            "pontos" => isset($todas['scout']['PP']) ? $todas['scout']['PP'] * -2.00 : 0,
+                            "count" => isset($todas['scout']['PP']) ? $todas['scout']['PP'] : 0
                     ),
                         "CV" => array(
                             "acao" => "Cartão Vermelho", // Cartão Vermelho
-                            "pontos" => isset($todas['scout']['CV']) ? $todas['scout']['CV'] * -5.00 : 0
+                            "pontos" => isset($todas['scout']['CV']) ? $todas['scout']['CV'] * -5.00 : 0,
+                            "count" => isset($todas['scout']['CV']) ? $todas['scout']['CV'] : 0
                     ),
                         "CA" => array(
                             "acao" => "Cartão Amarelo", // Cartão Amarelo
-                            "pontos" => isset($todas['scout']['CA']) ? $todas['scout']['CA'] * -2.00 : 0
+                            "pontos" => isset($todas['scout']['CA']) ? $todas['scout']['CA'] * -2.00 : 0,
+                            "count" => isset($todas['scout']['CA']) ? $todas['scout']['CA'] : 0
                     )
                     );
 
@@ -182,13 +200,13 @@ function Reservas()
                             </table>
                         </div>
                         <div class="col-12">
-                            <p class="d-flex justify-content-center"><small><b>SCOUTS</b></small></p>
                             <p class="d-flex justify-content-center">
                             <small>
                                 <table class="table table-bordered border-primary">
                                     <thead>
                                         <tr>
                                             <th scope="col">Ação</th>
+                                            <th scope="col">Count*</th>
                                             <th scope="col">Pontos</th>
                                         </tr>
                                     </thead>
@@ -198,14 +216,13 @@ function Reservas()
                                         if ($value['pontos'] != 0) {
                                             echo '<tr>
                                             <td>' . $value['acao'] . '</td>
+                                            <td>' . $value['count'] . '</td>
                                             <td>' . $value['pontos'] . '</td>
                                             </tr>';
                                         }else{
                                             echo '';
                                         }
                                     }
-                                    
-                                                                       
                                     echo '</tbody>
                                 </table>
                           </small></p>
