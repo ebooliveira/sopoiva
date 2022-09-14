@@ -30,6 +30,11 @@ function MaisEscalados1()
                     } else {
                         $MinValor = 'Calculando pontuação...';
                     }
+                        $mpm = isset($todas['gato_mestre']['media_pontos_mandante']) ? $todas['gato_mestre']['media_pontos_mandante'] : null;
+                        $mpv = isset($todas['gato_mestre']['media_pontos_visitante']) ? $todas['gato_mestre']['media_pontos_visitante'] : null;
+                        $mmj = isset($todas['gato_mestre']['media_minutos_jogados']) ? $todas['gato_mestre']['media_minutos_jogados'] : null;
+                        $mj = isset($todas['gato_mestre']['minutos_jogados']) ? $todas['gato_mestre']['minutos_jogados'] : null;
+                    
 
                     $scout = $todas['scout']; // Exibe o scout do atleta
                     $scout = array(
@@ -188,6 +193,16 @@ function MaisEscalados1()
                                     </tr>
                                 </tbody>
                             </table>                            
+                        </div>
+                        <div class="col-12">
+                            <div class="d-flex justify-content-center">
+                                <p><small class="badge bg-light text-dark">
+                                    <b>Media de pontos como mandante: '.number_format($mpm , 2, '.', '').' pts</b><br>
+                                    <b>Media de pontos como visitante: '.number_format($mpv , 2, '.', '').' pts</b><br>
+                                    <b>Media de minutos jogados: '.$mmj.' min</b><br>
+                                    <b>Minutos jogados: '.$mj.' min</b><br>
+                                </small></p>
+                            </div>
                         </div>
                         <div class="col-12">
                             <p class="d-flex justify-content-center">

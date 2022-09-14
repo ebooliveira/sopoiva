@@ -45,6 +45,27 @@ function Reservas()
                     } else {
                         $MinValor = 'Calculando...';
                     }
+                    if($todas['status_id'] == 7){
+                        $status_id = 'Provável';
+                    } else if($todas['status_id'] == 6){
+                        $status_id = 'Nulo';
+                    } else if($todas['status_id'] == 5){
+                        $status_id = 'Contudido';
+                    } else if($todas['status_id'] == 3){
+                        $status_id = 'Suspenso';
+                    }else if($todas['status_id'] == 2){
+                        $status_id = 'Dúvida';
+                    }else{
+                        $status_id = 'Desconhecido';
+                    }
+
+
+                    
+                        $mpm = isset($todas['gato_mestre']['media_pontos_mandante']) ? $todas['gato_mestre']['media_pontos_mandante'] : null;
+                        $mpv = isset($todas['gato_mestre']['media_pontos_visitante']) ? $todas['gato_mestre']['media_pontos_visitante'] : null;
+                        $mmj = isset($todas['gato_mestre']['media_minutos_jogados']) ? $todas['gato_mestre']['media_minutos_jogados'] : null;
+                        $mj = isset($todas['gato_mestre']['minutos_jogados']) ? $todas['gato_mestre']['minutos_jogados'] : null;
+                    
                     $scout = array(
                         "SG" => array(
                             "acao" => "Jogo sem sofrer gols", // Jogo sem sofrer gols
@@ -149,7 +170,7 @@ function Reservas()
                                 <img src="' . $foto . '"" class="rounded-circle" width="50" height="50" alt="...">
                             </div>
                             <div class="col-6">
-                                <h5 class="card-title">' . $ReservasMaisEscaladossubArray['Atleta']['apelido_abreviado'] . '</h5>
+                                <h5 class="card-title">'. $ReservasMaisEscaladossubArray['Atleta']['apelido_abreviado'].'</h5>
                                 <span class="badge bg-'.$coresPosicao_abreviacao.'">'. $pos .' - '. $ReservasMaisEscaladossubArray['clube_nome']. '</span>
                             </div>
                             <div class="col-3">
@@ -168,9 +189,10 @@ function Reservas()
                     <div class="accordion-body">
                     <div class="row">                    
                         <div class="col-12">
-                        <p class="card-text"><b>'. '<img src="' . $ReservasMaisEscaladossubArray['escudo_clube'] . '" width="25" height="25" alt="..."> - '
+                        <p class="card-text"><b>'.'<img src="' . $ReservasMaisEscaladossubArray['escudo_clube'] . '" width="25" height="25" alt="..."> - '
                         . $todas['apelido'] . '</b> - ' . '<span class="badge bg-warning text-dark"> C$ ' 
                         . $todas['preco_num'] . '</span></p>
+                        <p><b>Status: </b>' . $status_id . '</p>
                             <p class="card-text"><b>' . $ReservasMaisEscaladossubArray['clube_nome'] . ' - ' . $ReservasMaisEscaladossubArray['posicao'] . '</b></p>
                             <button class="col-12" type="button" disabled>
                                 <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
@@ -197,6 +219,16 @@ function Reservas()
                                     </tr>
                                 </tbody>
                             </table>
+                        </div>
+                        <div class="col-12">
+                            <div class="d-flex justify-content-center">
+                                <p><small class="badge bg-light text-dark">
+                                    <b>Media de pontos como mandante: '.number_format($mpm , 2, '.', '').' pts</b><br>
+                                    <b>Media de pontos como visitante: '.number_format($mpv , 2, '.', '').' pts</b><br>
+                                    <b>Media de minutos jogados: '.$mmj.' min</b><br>
+                                    <b>Minutos jogados: '.$mj.' min</b><br>
+                                </small></p>
+                            </div>
                         </div>
                         <div class="col-12">
                             <p class="d-flex justify-content-center">
@@ -226,7 +258,7 @@ function Reservas()
                                 </table>
                           </small></p>
                         </div>
-                        
+
                         <div class="d-grid gap-2">
                                 <a href="https://gatomestre.globoesporte.globo.com/atletas/?utm_source=web-cartola&utm_medium=web&utm_term=gatomestre&cartola_p_gm=web&atleta_id=' . $ReservasMaisEscaladossubArray['Atleta']['atleta_id'] . '" class="btn btn-primary" target="_blank">Estatisticas Gato Mestre</a>
                         </div>
