@@ -14,7 +14,8 @@
         <div class="collapse" id="NavbarPrincipal">
             <div class="bg-dark p-4">
                 <h5 class="text-white h4">Cartola FC - SoPoiva</h5>
-                <span class="text-muted">Tudo sobre o CartolaFC</span>
+                <span class="text-muted">Tudo sobre o CartolaFC</span><br>
+                <span class="badge bg-success">Times Escalados: <?php require_once 'api/timesAtualRodada.php'; echo number_format($statusMercado['times_escalados'], 0, '.', '.') ?> </span>
             </div>
         </div>
         <nav class="navbar navbar-dark bg-dark">
@@ -74,7 +75,7 @@
                         require_once 'api/timesAtualRodada.php';
                         require_once 'Views/ConfrontosDaRodada.php';
                         ?>
-                        <span class="d-block p-2 bg-success text-white">Rodada #<?php echo $statusMercado['rodada_atual']; ?></span>
+                        <span class="d-block p-2 bg-success text-white">Rodada #<?php echo $statusMercado['rodada_atual'];?></span>
                         <?php
                         $Confrontos = ConfrontosDaRodada();
                         echo $Confrontos;

@@ -80,7 +80,6 @@ $context4 = stream_context_create($options4); // Cria o contexto da requisição
 $response4 = file_get_contents($urlMercadoPorRodada, false, $context4); // Faz a requisição
 $MercadoPorRodada = json_decode($response4, true); // Decodifica o JSON
 
-
 // $urlMelhorTimePosRodada
 $options5 = array(
     'http' =>
