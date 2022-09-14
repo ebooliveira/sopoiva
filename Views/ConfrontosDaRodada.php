@@ -1,6 +1,6 @@
 <?php
 require_once 'api/api.php';
-function timesAtualRodada1()
+function ConfrontosDaRodada()
 {
     global $MercadoPorRodada; // Variável global
     global $SelecioneRodada;
@@ -62,7 +62,7 @@ function timesAtualRodada1()
                             </div>
                             <div class="row">
                                 <div class="col-3">
-<!--                                    <span class="badge bg-light  text-dark">' . $partidaValida . '</span>                                 -->
+                                    <!--<span class="badge bg-light  text-dark">' . $partidaValida . '</span>                                 -->
                                 </div>
                                 <div class="col-6">
                                     <span class="badge bg-light  text-dark">' . $partidas['placar_oficial_mandante'] . ' X ' . $partidas['placar_oficial_visitante'] . '</span>

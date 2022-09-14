@@ -1,5 +1,5 @@
 <?php
-require_once '/xampp/htdocs/sopoiva/api/ApiTwitter.php';
+require __DIR__ . '/../api/ApiTwitter.php';
 $api = new ApiTwitter();
 $result = $api->PesquisarTweets();
 $result = json_decode($result);

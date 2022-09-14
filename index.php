@@ -32,47 +32,52 @@
         </nav>
         <div class="container">
             <br>
+            <!--
             <div class="row">
                 <div class="col-md-12">
                     <div>
                         <?php
-                        require_once 'views/SearchTweet.php';
-                        $Twiiter = exibirTweets($result);
-                        echo $Twiiter;
+                        //require_once 'views/SearchTweet.php';
+                        //$Twiiter = exibirTweets($result);
+                        //echo $Twiiter;
                         ?>
                     </div>
                 </div>
-            </div>
+            </div> -->
             <div class="row ">
-                <div class="col-md-4">
+                <div class="col-lg-4 col-md-6 col-sm-12 col-12">
                     <span class="d-block p-2 bg-success text-white">Mais Escalados!</span>
                     <title>Escalados</title>
+                    <div  class="card border-success">
                     <?php
                     require_once 'views/MaisEscalados.php';
                     // SE FUNÇÃO MAIS ESCALADOS ESTIVER OK, EXIBA. CASO CONTRÁRIO, EXIBA UMA MESAGEM DE ERRO.
                     $melhor1 = MaisEscalados1();
                     echo $melhor1;
                     ?>
+                    </div>
                 </div>
-                <div class="col-md-4 ">
-                    <span class="d-block p-2 bg-success text-white">Reservas!</span>
+                <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                    <span class="d-block p-2 bg-warning text-white">Reservas!</span>
                     <!--Chamar Função mais escalados-->
+                    <div  class="card border-warning">
                     <?php
                     require_once 'views/Reservas.php';
                     $reservas = Reservas();
                     echo $reservas;
                     ?>
+                    </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-lg-4 col-md-12 col-sm-12 col-12">
                     <div>
                         <?php
                         require_once 'api/timesAtualRodada.php';
-                        require_once 'api/api.php';
+                        require_once 'Views/ConfrontosDaRodada.php';
                         ?>
                         <span class="d-block p-2 bg-success text-white">Rodada #<?php echo $statusMercado['rodada_atual']; ?></span>
                         <?php
-                        $atualRodada = timesAtualRodada();
-                        echo $atualRodada;
+                        $Confrontos = ConfrontosDaRodada();
+                        echo $Confrontos;
                         ?>
                     </div>
                 </div>
@@ -80,6 +85,7 @@
         </div>
     </main>
     <!-- RODAPE -->
+    <br>
     <footer class="bg-dark text-white">
         <div class="container">
             <div class="row">

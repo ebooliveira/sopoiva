@@ -1,0 +1,4 @@
+<?php
+//DEFINIR PASTA RAIZ DO PROJETO COMO DIRETORIO RAIZ
+ __DIR__ . '/..';
+ echo __DIR__;
