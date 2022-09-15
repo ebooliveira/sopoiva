@@ -33,18 +33,14 @@
         </nav>
         <div class="container">
             <br>
-            <!--
+            
             <div class="row">
                 <div class="col-md-12">
                     <div>
-                        <?php
-                        //require_once 'views/SearchTweet.php';
-                        //$Twiiter = exibirTweets($result);
-                        //echo $Twiiter;
-                        ?>
+
                     </div>
                 </div>
-            </div> -->
+            </div> 
             <div class="row ">
                 <div class="col-lg-4 col-md-6 col-sm-12 col-12">
                     <span class="d-block p-2 bg-success text-white">Mais Escalados!</span>

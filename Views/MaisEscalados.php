@@ -34,7 +34,19 @@ function MaisEscalados1()
                         $mpv = isset($todas['gato_mestre']['media_pontos_visitante']) ? $todas['gato_mestre']['media_pontos_visitante'] : null;
                         $mmj = isset($todas['gato_mestre']['media_minutos_jogados']) ? $todas['gato_mestre']['media_minutos_jogados'] : null;
                         $mj = isset($todas['gato_mestre']['minutos_jogados']) ? $todas['gato_mestre']['minutos_jogados'] : null;
-                    
+                        if($todas['status_id'] == 7){
+                            $status_id = 'Provável';
+                        } else if($todas['status_id'] == 6){
+                            $status_id = 'Nulo';
+                        } else if($todas['status_id'] == 5){
+                            $status_id = 'Contudido';
+                        } else if($todas['status_id'] == 3){
+                            $status_id = 'Suspenso';
+                        }else if($todas['status_id'] == 2){
+                            $status_id = 'Dúvida';
+                        }else{
+                            $status_id = 'Desconhecido';
+                        }
 
                     $scout = $todas['scout']; // Exibe o scout do atleta
                     $scout = array(
@@ -167,6 +179,7 @@ function MaisEscalados1()
                             <p class="card-text"><b>' . '<img src="' . $subArray['escudo_clube'] . '" width="25" height="25" alt="..."> - '
                         . $todas['apelido'] . '</b> - ' . '<span class="badge bg-warning text-dark"> C$ '
                         . $todas['preco_num'] . '</span></p>
+                        <p><b>Status: </b>' . $status_id . '</p>
                             <p class="card-text"><b>' . $subArray['clube_nome'] . ' - ' . $subArray['posicao'] . '</b></p>                            
                             <button class="col-12" type="button" disabled>
                                 <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
