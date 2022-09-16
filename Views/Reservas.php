@@ -47,8 +47,14 @@ function Reservas()
                     }
                     if($todas['status_id'] == 7){
                         $status_id = 'Provável';
+                        $status_ico = '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+                      </svg> ';
                     } else if($todas['status_id'] == 6){
                         $status_id = 'Nulo';
+                        $status_ico = '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+                        <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z"/>
+                      </svg> ';                        
                     } else if($todas['status_id'] == 5){
                         $status_id = 'Contudido';
                     } else if($todas['status_id'] == 3){
@@ -192,7 +198,7 @@ function Reservas()
                         <p class="card-text"><b>'.'<img src="' . $ReservasMaisEscaladossubArray['escudo_clube'] . '" width="25" height="25" alt="..."> - '
                         . $todas['apelido'] . '</b> - ' . '<span class="badge bg-warning text-dark"> C$ ' 
                         . $todas['preco_num'] . '</span></p>
-                        <p><b>Status: </b>' . $status_id . '</p>
+                        <p><b>Status: </b>'.$status_ico.''. $status_id .' </p>
                             <p class="card-text"><b>' . $ReservasMaisEscaladossubArray['clube_nome'] . ' - ' . $ReservasMaisEscaladossubArray['posicao'] . '</b></p>
                             <button class="col-12" type="button" disabled>
                                 <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>

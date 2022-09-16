@@ -55,9 +55,9 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-                    <span class="d-block p-2 bg-warning text-white">Reservas!</span>
+                    <span class="d-block p-2 bg-primary text-white">Reservas!</span>
                     <!--Chamar Função mais escalados-->
-                    <div  class="card border-warning">
+                    <div  class="card border-primary">
                     <?php
                     require_once 'views/Reservas.php';
                     $reservas = Reservas();
@@ -65,6 +65,21 @@
                     ?>
                     </div>
                 </div>
+                <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+                    <div  class="card border-warning">
+                        <?php
+                        require_once 'Views/Capitao.php';
+                        ?>
+                        <span class="d-block p-2 bg-warning text-white">Capitães mais escalados!</span>
+                        <?php
+                        $CapitaoResult = Capitao();
+                        echo $CapitaoResult;
+                        ?>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div>
                 <div class="col-lg-4 col-md-12 col-sm-12 col-12">
                     <div>
                         <?php

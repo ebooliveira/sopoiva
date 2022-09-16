@@ -1,0 +1,763 @@
+array(3) {
+    [
+        "selecao"
+    ]=> array(12) {
+        [
+            0
+        ]=> array(8) {
+            [
+                "posicao"
+            ]=> string(8) "Atacante"[
+                "posicao_abreviacao"
+            ]=> string(3) "ata"[
+                "clube"
+            ]=> string(3) "FLA"[
+                "clube_nome"
+            ]=> string(0) ""[
+                "escudo_clube"
+            ]=> string(70) "https://s.sde.globo.com/media/organizations/2018/04/09/Flamengo-65.png"[
+                "Atleta"
+            ]=> array(6) {
+                [
+                    "nome"
+                ]=> string(32) "Pedro Guilherme Abreu dos Santos"[
+                    "apelido"
+                ]=> string(5) "Pedro"[
+                    "apelido_abreviado"
+                ]=> string(5) "Pedro"[
+                    "foto"
+                ]=> string(97) "https://s.sde.globo.com/media/person_role/2022/04/25/ee38c717eeb351fd94e1dfdd699c2e26_FORMATO.png"[
+                    "atleta_id"
+                ]=> int(94583) [
+                    "preco_editorial"
+                ]=> int(12)
+            } [
+                "clube_id"
+            ]=> int(262) [
+                "escalacoes"
+            ]=> int(552539)
+        } [
+            1
+        ]=> array(8) {
+            [
+                "posicao"
+            ]=> string(8) "Atacante"[
+                "posicao_abreviacao"
+            ]=> string(3) "ata"[
+                "clube"
+            ]=> string(3) "PAL"[
+                "clube_nome"
+            ]=> string(0) ""[
+                "escudo_clube"
+            ]=> string(74) "https://s.sde.globo.com/media/organizations/2014/04/14/palmeiras_60x60.png"[
+                "Atleta"
+            ]=> array(6) {
+                [
+                    "nome"
+                ]=> string(26) "Ronielson da Silva Barbosa"[
+                    "apelido"
+                ]=> string(4) "Rony"[
+                    "apelido_abreviado"
+                ]=> string(4) "Rony"[
+                    "foto"
+                ]=> string(141) "https://storage.googleapis.com/bkt-gglobo-sde-hdg-prd-sdeadmin_prod/media/person_role/2022/02/21/a09a417ce482ea35a6c54e89437850d4_FORMATO.png"[
+                    "atleta_id"
+                ]=> int(91607) [
+                    "preco_editorial"
+                ]=> int(10)
+            } [
+                "clube_id"
+            ]=> int(275) [
+                "escalacoes"
+            ]=> int(303936)
+        } [
+            2
+        ]=> array(8) {
+            [
+                "posicao"
+            ]=> string(8) "Atacante"[
+                "posicao_abreviacao"
+            ]=> string(3) "ata"[
+                "clube"
+            ]=> string(3) "GOI"[
+                "clube_nome"
+            ]=> string(0) ""[
+                "escudo_clube"
+            ]=> string(67) "https://s.sde.globo.com/media/organizations/2021/03/01/goias-65.png"[
+                "Atleta"
+            ]=> array(6) {
+                [
+                    "nome"
+                ]=> string(25) "Pedro Raul Garay da Silva"[
+                    "apelido"
+                ]=> string(10) "Pedro Raul"[
+                    "apelido_abreviado"
+                ]=> string(7) "P. Raul"[
+                    "foto"
+                ]=> string(141) "https://storage.googleapis.com/bkt-gglobo-sde-hdg-prd-sdeadmin_prod/media/person_role/2022/03/10/5215be2746c5556d28458274ecbe4b16_FORMATO.png"[
+                    "atleta_id"
+                ]=> int(98225) [
+                    "preco_editorial"
+                ]=> int(5)
+            } [
+                "clube_id"
+            ]=> int(290) [
+                "escalacoes"
+            ]=> int(193218)
+        } [
+            3
+        ]=> array(8) {
+            [
+                "posicao"
+            ]=> string(8) "Técnico"[
+                "posicao_abreviacao"
+            ]=> string(3) "tec"[
+                "clube"
+            ]=> string(3) "PAL"[
+                "clube_nome"
+            ]=> string(0) ""[
+                "escudo_clube"
+            ]=> string(74) "https://s.sde.globo.com/media/organizations/2014/04/14/palmeiras_60x60.png"[
+                "Atleta"
+            ]=> array(6) {
+                [
+                    "nome"
+                ]=> string(30) "Abel Fernando Moreira Ferreira"[
+                    "apelido"
+                ]=> string(13) "Abel Ferreira"[
+                    "apelido_abreviado"
+                ]=> string(11) "A. Ferreira"[
+                    "foto"
+                ]=> string(85) "https://s.glbimg.com/es/sde/f/2021/04/27/574e87d52be9d06fd03fa69fefb60255_FORMATO.png"[
+                    "atleta_id"
+                ]=> int(110506) [
+                    "preco_editorial"
+                ]=> int(12)
+            } [
+                "clube_id"
+            ]=> int(275) [
+                "escalacoes"
+            ]=> int(222763)
+        } [
+            4
+        ]=> array(8) {
+            [
+                "posicao"
+            ]=> string(7) "Goleiro"[
+                "posicao_abreviacao"
+            ]=> string(3) "gol"[
+                "clube"
+            ]=> string(3) "PAL"[
+                "clube_nome"
+            ]=> string(0) ""[
+                "escudo_clube"
+            ]=> string(74) "https://s.sde.globo.com/media/organizations/2014/04/14/palmeiras_60x60.png"[
+                "Atleta"
+            ]=> array(6) {
+                [
+                    "nome"
+                ]=> string(25) "Weverton Pereira da Silva"[
+                    "apelido"
+                ]=> string(8) "Weverton"[
+                    "apelido_abreviado"
+                ]=> string(8) "Weverton"[
+                    "foto"
+                ]=> string(85) "https://s.glbimg.com/es/sde/f/2022/02/21/b9adc602abc451c8b30c8554a18970f2_FORMATO.png"[
+                    "atleta_id"
+                ]=> int(71631) [
+                    "preco_editorial"
+                ]=> int(17)
+            } [
+                "clube_id"
+            ]=> int(275) [
+                "escalacoes"
+            ]=> int(171245)
+        } [
+            5
+        ]=> array(8) {
+            [
+                "posicao"
+            ]=> string(7) "Lateral"[
+                "posicao_abreviacao"
+            ]=> string(3) "lat"[
+                "clube"
+            ]=> string(3) "BGT"[
+                "clube_nome"
+            ]=> string(0) ""[
+                "escudo_clube"
+            ]=> string(61) "https://s.sde.globo.com/media/organizations/2020/01/01/65.png"[
+                "Atleta"
+            ]=> array(6) {
+                [
+                    "nome"
+                ]=> string(24) "Luan Cândido de Almeida"[
+                    "apelido"
+                ]=> string(13) "Luan Cândido"[
+                    "apelido_abreviado"
+                ]=> string(11) "L. Cândido"[
+                    "foto"
+                ]=> string(85) "https://s.glbimg.com/es/sde/f/2022/05/05/a09132195a9936adeadb1a61d65dad2e_FORMATO.png"[
+                    "atleta_id"
+                ]=> int(100848) [
+                    "preco_editorial"
+                ]=> int(6)
+            } [
+                "clube_id"
+            ]=> int(280) [
+                "escalacoes"
+            ]=> int(302217)
+        } [
+            6
+        ]=> array(8) {
+            [
+                "posicao"
+            ]=> string(7) "Lateral"[
+                "posicao_abreviacao"
+            ]=> string(3) "lat"[
+                "clube"
+            ]=> string(3) "PAL"[
+                "clube_nome"
+            ]=> string(0) ""[
+                "escudo_clube"
+            ]=> string(74) "https://s.sde.globo.com/media/organizations/2014/04/14/palmeiras_60x60.png"[
+                "Atleta"
+            ]=> array(6) {
+                [
+                    "nome"
+                ]=> string(24) "Marcos Luis Rocha Aquino"[
+                    "apelido"
+                ]=> string(12) "Marcos Rocha"[
+                    "apelido_abreviado"
+                ]=> string(8) "M. Rocha"[
+                    "foto"
+                ]=> string(85) "https://s.glbimg.com/es/sde/f/2022/02/21/b5c3422a508001c1776995c43b20fdff_FORMATO.png"[
+                    "atleta_id"
+                ]=> int(63013) [
+                    "preco_editorial"
+                ]=> int(8)
+            } [
+                "clube_id"
+            ]=> int(275) [
+                "escalacoes"
+            ]=> int(179565)
+        } [
+            7
+        ]=> array(8) {
+            [
+                "posicao"
+            ]=> string(8) "Zagueiro"[
+                "posicao_abreviacao"
+            ]=> string(3) "zag"[
+                "clube"
+            ]=> string(3) "PAL"[
+                "clube_nome"
+            ]=> string(0) ""[
+                "escudo_clube"
+            ]=> string(74) "https://s.sde.globo.com/media/organizations/2014/04/14/palmeiras_60x60.png"[
+                "Atleta"
+            ]=> array(6) {
+                [
+                    "nome"
+                ]=> string(29) "Gustavo Raúl Gómez Portillo"[
+                    "apelido"
+                ]=> string(14) "Gustavo Gómez"[
+                    "apelido_abreviado"
+                ]=> string(9) "G. Gómez"[
+                    "foto"
+                ]=> string(85) "https://s.glbimg.com/es/sde/f/2022/02/21/f210b8623194d0722dd0d76585950fb1_FORMATO.png"[
+                    "atleta_id"
+                ]=> int(71684) [
+                    "preco_editorial"
+                ]=> int(14)
+            } [
+                "clube_id"
+            ]=> int(275) [
+                "escalacoes"
+            ]=> int(402601)
+        } [
+            8
+        ]=> array(8) {
+            [
+                "posicao"
+            ]=> string(8) "Zagueiro"[
+                "posicao_abreviacao"
+            ]=> string(3) "zag"[
+                "clube"
+            ]=> string(3) "CAP"[
+                "clube_nome"
+            ]=> string(0) ""[
+                "escudo_clube"
+            ]=> string(77) "https://s.sde.globo.com/media/organizations/2019/09/09/Athletico-PR-65x65.png"[
+                "Atleta"
+            ]=> array(6) {
+                [
+                    "nome"
+                ]=> string(33) "Pedro Henrique Ribeiro Gonçalves"[
+                    "apelido"
+                ]=> string(14) "Pedro Henrique"[
+                    "apelido_abreviado"
+                ]=> string(11) "P. Henrique"[
+                    "foto"
+                ]=> string(85) "https://s.glbimg.com/es/sde/f/2021/05/02/f5dd1bb01acb5eb9e0601cc31c8020f5_FORMATO.png"[
+                    "atleta_id"
+                ]=> int(87225) [
+                    "preco_editorial"
+                ]=> int(6)
+            } [
+                "clube_id"
+            ]=> int(293) [
+                "escalacoes"
+            ]=> int(228738)
+        } [
+            9
+        ]=> array(8) {
+            [
+                "posicao"
+            ]=> string(4) "Meia"[
+                "posicao_abreviacao"
+            ]=> string(3) "mei"[
+                "clube"
+            ]=> string(3) "PAL"[
+                "clube_nome"
+            ]=> string(0) ""[
+                "escudo_clube"
+            ]=> string(74) "https://s.sde.globo.com/media/organizations/2014/04/14/palmeiras_60x60.png"[
+                "Atleta"
+            ]=> array(6) {
+                [
+                    "nome"
+                ]=> string(31) "Gustavo Henrique Furtado Scarpa"[
+                    "apelido"
+                ]=> string(14) "Gustavo Scarpa"[
+                    "apelido_abreviado"
+                ]=> string(9) "G. Scarpa"[
+                    "foto"
+                ]=> string(97) "https://s.sde.globo.com/media/person_role/2022/02/21/7f4f870f8251e4f95ab6d372a22919c1_FORMATO.png"[
+                    "atleta_id"
+                ]=> int(87999) [
+                    "preco_editorial"
+                ]=> int(8)
+            } [
+                "clube_id"
+            ]=> int(275) [
+                "escalacoes"
+            ]=> int(600938)
+        } [
+            10
+        ]=> array(8) {
+            [
+                "posicao"
+            ]=> string(4) "Meia"[
+                "posicao_abreviacao"
+            ]=> string(3) "mei"[
+                "clube"
+            ]=> string(3) "FLA"[
+                "clube_nome"
+            ]=> string(0) ""[
+                "escudo_clube"
+            ]=> string(70) "https://s.sde.globo.com/media/organizations/2018/04/09/Flamengo-65.png"[
+                "Atleta"
+            ]=> array(6) {
+                [
+                    "nome"
+                ]=> string(39) "Giorgian Daniel de Arrascaeta Benedetti"[
+                    "apelido"
+                ]=> string(10) "Arrascaeta"[
+                    "apelido_abreviado"
+                ]=> string(10) "Arrascaeta"[
+                    "foto"
+                ]=> string(141) "https://storage.googleapis.com/bkt-gglobo-sde-hdg-prd-sdeadmin_prod/media/person_role/2022/04/25/cc92618f5866aefc097fc6f6ad12eef6_FORMATO.png"[
+                    "atleta_id"
+                ]=> int(87863) [
+                    "preco_editorial"
+                ]=> int(17)
+            } [
+                "clube_id"
+            ]=> int(262) [
+                "escalacoes"
+            ]=> int(534636)
+        } [
+            11
+        ]=> array(8) {
+            [
+                "posicao"
+            ]=> string(4) "Meia"[
+                "posicao_abreviacao"
+            ]=> string(3) "mei"[
+                "clube"
+            ]=> string(3) "CAP"[
+                "clube_nome"
+            ]=> string(0) ""[
+                "escudo_clube"
+            ]=> string(77) "https://s.sde.globo.com/media/organizations/2019/09/09/Athletico-PR-65x65.png"[
+                "Atleta"
+            ]=> array(6) {
+                [
+                    "nome"
+                ]=> string(28) "Miguel David Terans Pérez "[
+                    "apelido"
+                ]=> string(6) "Terans"[
+                    "apelido_abreviado"
+                ]=> string(6) "Terans"[
+                    "foto"
+                ]=> string(85) "https://s.glbimg.com/es/sde/f/2021/06/22/9afbb795a2e1b8ea2d0c84725bf26e2b_FORMATO.png"[
+                    "atleta_id"
+                ]=> int(102878) [
+                    "preco_editorial"
+                ]=> int(13)
+            } [
+                "clube_id"
+            ]=> int(293) [
+                "escalacoes"
+            ]=> int(261512)
+        }
+    } [
+        "capitaes"
+    ]=> array(5) {
+        [
+            0
+        ]=> array(8) {
+            [
+                "posicao"
+            ]=> string(8) "Atacante"[
+                "posicao_abreviacao"
+            ]=> string(3) "ata"[
+                "clube"
+            ]=> string(3) "FLA"[
+                "clube_nome"
+            ]=> string(0) ""[
+                "escudo_clube"
+            ]=> string(70) "https://s.sde.globo.com/media/organizations/2018/04/09/Flamengo-65.png"[
+                "Atleta"
+            ]=> array(6) {
+                [
+                    "nome"
+                ]=> string(32) "Pedro Guilherme Abreu dos Santos"[
+                    "apelido"
+                ]=> string(5) "Pedro"[
+                    "apelido_abreviado"
+                ]=> string(5) "Pedro"[
+                    "foto"
+                ]=> string(97) "https://s.sde.globo.com/media/person_role/2022/04/25/ee38c717eeb351fd94e1dfdd699c2e26_FORMATO.png"[
+                    "atleta_id"
+                ]=> int(94583) [
+                    "preco_editorial"
+                ]=> int(12)
+            } [
+                "clube_id"
+            ]=> int(262) [
+                "escalacoes"
+            ]=> int(320359)
+        } [
+            1
+        ]=> array(8) {
+            [
+                "posicao"
+            ]=> string(4) "Meia"[
+                "posicao_abreviacao"
+            ]=> string(3) "mei"[
+                "clube"
+            ]=> string(3) "PAL"[
+                "clube_nome"
+            ]=> string(0) ""[
+                "escudo_clube"
+            ]=> string(74) "https://s.sde.globo.com/media/organizations/2014/04/14/palmeiras_60x60.png"[
+                "Atleta"
+            ]=> array(6) {
+                [
+                    "nome"
+                ]=> string(31) "Gustavo Henrique Furtado Scarpa"[
+                    "apelido"
+                ]=> string(14) "Gustavo Scarpa"[
+                    "apelido_abreviado"
+                ]=> string(9) "G. Scarpa"[
+                    "foto"
+                ]=> string(97) "https://s.sde.globo.com/media/person_role/2022/02/21/7f4f870f8251e4f95ab6d372a22919c1_FORMATO.png"[
+                    "atleta_id"
+                ]=> int(87999) [
+                    "preco_editorial"
+                ]=> int(8)
+            } [
+                "clube_id"
+            ]=> int(275) [
+                "escalacoes"
+            ]=> int(81414)
+        } [
+            2
+        ]=> array(8) {
+            [
+                "posicao"
+            ]=> string(8) "Atacante"[
+                "posicao_abreviacao"
+            ]=> string(3) "ata"[
+                "clube"
+            ]=> string(3) "PAL"[
+                "clube_nome"
+            ]=> string(0) ""[
+                "escudo_clube"
+            ]=> string(74) "https://s.sde.globo.com/media/organizations/2014/04/14/palmeiras_60x60.png"[
+                "Atleta"
+            ]=> array(6) {
+                [
+                    "nome"
+                ]=> string(26) "Ronielson da Silva Barbosa"[
+                    "apelido"
+                ]=> string(4) "Rony"[
+                    "apelido_abreviado"
+                ]=> string(4) "Rony"[
+                    "foto"
+                ]=> string(141) "https://storage.googleapis.com/bkt-gglobo-sde-hdg-prd-sdeadmin_prod/media/person_role/2022/02/21/a09a417ce482ea35a6c54e89437850d4_FORMATO.png"[
+                    "atleta_id"
+                ]=> int(91607) [
+                    "preco_editorial"
+                ]=> int(10)
+            } [
+                "clube_id"
+            ]=> int(275) [
+                "escalacoes"
+            ]=> int(60030)
+        } [
+            3
+        ]=> array(8) {
+            [
+                "posicao"
+            ]=> string(4) "Meia"[
+                "posicao_abreviacao"
+            ]=> string(3) "mei"[
+                "clube"
+            ]=> string(3) "FLA"[
+                "clube_nome"
+            ]=> string(0) ""[
+                "escudo_clube"
+            ]=> string(70) "https://s.sde.globo.com/media/organizations/2018/04/09/Flamengo-65.png"[
+                "Atleta"
+            ]=> array(6) {
+                [
+                    "nome"
+                ]=> string(39) "Giorgian Daniel de Arrascaeta Benedetti"[
+                    "apelido"
+                ]=> string(10) "Arrascaeta"[
+                    "apelido_abreviado"
+                ]=> string(10) "Arrascaeta"[
+                    "foto"
+                ]=> string(141) "https://storage.googleapis.com/bkt-gglobo-sde-hdg-prd-sdeadmin_prod/media/person_role/2022/04/25/cc92618f5866aefc097fc6f6ad12eef6_FORMATO.png"[
+                    "atleta_id"
+                ]=> int(87863) [
+                    "preco_editorial"
+                ]=> int(17)
+            } [
+                "clube_id"
+            ]=> int(262) [
+                "escalacoes"
+            ]=> int(53812)
+        } [
+            4
+        ]=> array(8) {
+            [
+                "posicao"
+            ]=> string(8) "Atacante"[
+                "posicao_abreviacao"
+            ]=> string(3) "ata"[
+                "clube"
+            ]=> string(3) "FLU"[
+                "clube_nome"
+            ]=> string(0) ""[
+                "escudo_clube"
+            ]=> string(75) "https://s.sde.globo.com/media/organizations/2014/04/14/fluminense_60x60.png"[
+                "Atleta"
+            ]=> array(6) {
+                [
+                    "nome"
+                ]=> string(21) "Germán Ezequiel Cano"[
+                    "apelido"
+                ]=> string(4) "Cano"[
+                    "apelido_abreviado"
+                ]=> string(4) "Cano"[
+                    "foto"
+                ]=> string(141) "https://storage.googleapis.com/bkt-gglobo-sde-hdg-prd-sdeadmin_prod/media/person_role/2022/04/20/5bb8f223990a3b79975f90d376fb341a_FORMATO.png"[
+                    "atleta_id"
+                ]=> int(79631) [
+                    "preco_editorial"
+                ]=> int(11)
+            } [
+                "clube_id"
+            ]=> int(266) [
+                "escalacoes"
+            ]=> int(46167)
+        }
+    } [
+        "reservas"
+    ]=> array(5) {
+        [
+            0
+        ]=> array(8) {
+            [
+                "posicao"
+            ]=> string(7) "Goleiro"[
+                "posicao_abreviacao"
+            ]=> string(3) "gol"[
+                "clube"
+            ]=> string(3) "FOR"[
+                "clube_nome"
+            ]=> string(9) "Fortaleza"[
+                "escudo_clube"
+            ]=> string(81) "https://s.sde.globo.com/media/organizations/2021/09/19/65_0000_Fortaleza-2021.png"[
+                "Atleta"
+            ]=> array(6) {
+                [
+                    "nome"
+                ]=> string(24) "Fernando Miguel Kaufmann"[
+                    "apelido"
+                ]=> string(15) "Fernando Miguel"[
+                    "apelido_abreviado"
+                ]=> string(9) "F. Miguel"[
+                    "foto"
+                ]=> string(85) "https://s.glbimg.com/es/sde/f/2022/02/23/66ea94ea2768ebd6a6cb8f102326d669_FORMATO.png"[
+                    "atleta_id"
+                ]=> int(71571) [
+                    "preco_editorial"
+                ]=> int(7)
+            } [
+                "clube_id"
+            ]=> int(356) [
+                "escalacoes"
+            ]=> int(95147)
+        } [
+            1
+        ]=> array(8) {
+            [
+                "posicao"
+            ]=> string(8) "Atacante"[
+                "posicao_abreviacao"
+            ]=> string(3) "ata"[
+                "clube"
+            ]=> string(3) "BGT"[
+                "clube_nome"
+            ]=> string(10) "Bragantino"[
+                "escudo_clube"
+            ]=> string(61) "https://s.sde.globo.com/media/organizations/2020/01/01/65.png"[
+                "Atleta"
+            ]=> array(6) {
+                [
+                    "nome"
+                ]=> string(23) "Artur Victor Guimarães"[
+                    "apelido"
+                ]=> string(5) "Artur"[
+                    "apelido_abreviado"
+                ]=> string(5) "Artur"[
+                    "foto"
+                ]=> string(85) "https://s.glbimg.com/es/sde/f/2022/05/05/5c98a0d6cc76edfef83280072bbd3832_FORMATO.png"[
+                    "atleta_id"
+                ]=> int(95799) [
+                    "preco_editorial"
+                ]=> int(7)
+            } [
+                "clube_id"
+            ]=> int(280) [
+                "escalacoes"
+            ]=> int(115509)
+        } [
+            2
+        ]=> array(8) {
+            [
+                "posicao"
+            ]=> string(7) "Lateral"[
+                "posicao_abreviacao"
+            ]=> string(3) "lat"[
+                "clube"
+            ]=> string(3) "PAL"[
+                "clube_nome"
+            ]=> string(9) "Palmeiras"[
+                "escudo_clube"
+            ]=> string(74) "https://s.sde.globo.com/media/organizations/2014/04/14/palmeiras_60x60.png"[
+                "Atleta"
+            ]=> array(6) {
+                [
+                    "nome"
+                ]=> string(25) "Joaquín Piquerez Moreira"[
+                    "apelido"
+                ]=> string(8) "Piquerez"[
+                    "apelido_abreviado"
+                ]=> string(8) "Piquerez"[
+                    "foto"
+                ]=> string(85) "https://s.glbimg.com/es/sde/f/2022/02/21/82bd262ef647de7255e8df06fdd8e3f2_FORMATO.png"[
+                    "atleta_id"
+                ]=> int(102130) [
+                    "preco_editorial"
+                ]=> int(5)
+            } [
+                "clube_id"
+            ]=> int(275) [
+                "escalacoes"
+            ]=> int(78328)
+        } [
+            3
+        ]=> array(8) {
+            [
+                "posicao"
+            ]=> string(4) "Meia"[
+                "posicao_abreviacao"
+            ]=> string(3) "mei"[
+                "clube"
+            ]=> string(3) "FLA"[
+                "clube_nome"
+            ]=> string(8) "Flamengo"[
+                "escudo_clube"
+            ]=> string(70) "https://s.sde.globo.com/media/organizations/2018/04/09/Flamengo-65.png"[
+                "Atleta"
+            ]=> array(6) {
+                [
+                    "nome"
+                ]=> string(33) "Everton Augusto de Barros Ribeiro"[
+                    "apelido"
+                ]=> string(15) "Everton Ribeiro"[
+                    "apelido_abreviado"
+                ]=> string(10) "E. Ribeiro"[
+                    "foto"
+                ]=> string(97) "https://s.sde.globo.com/media/person_role/2022/04/25/e994fa1ddcbf61530f2598311908c471_FORMATO.png"[
+                    "atleta_id"
+                ]=> int(51772) [
+                    "preco_editorial"
+                ]=> int(8)
+            } [
+                "clube_id"
+            ]=> int(262) [
+                "escalacoes"
+            ]=> int(87143)
+        } [
+            4
+        ]=> array(8) {
+            [
+                "posicao"
+            ]=> string(8) "Zagueiro"[
+                "posicao_abreviacao"
+            ]=> string(3) "zag"[
+                "clube"
+            ]=> string(3) "CAP"[
+                "clube_nome"
+            ]=> string(13) "Athlético-PR"[
+                "escudo_clube"
+            ]=> string(77) "https://s.sde.globo.com/media/organizations/2019/09/09/Athletico-PR-65x65.png"[
+                "Atleta"
+            ]=> array(6) {
+                [
+                    "nome"
+                ]=> string(33) "Pedro Henrique Ribeiro Gonçalves"[
+                    "apelido"
+                ]=> string(14) "Pedro Henrique"[
+                    "apelido_abreviado"
+                ]=> string(11) "P. Henrique"[
+                    "foto"
+                ]=> string(85) "https://s.glbimg.com/es/sde/f/2021/05/02/f5dd1bb01acb5eb9e0601cc31c8020f5_FORMATO.png"[
+                    "atleta_id"
+                ]=> int(87225) [
+                    "preco_editorial"
+                ]=> int(6)
+            } [
+                "clube_id"
+            ]=> int(293) [
+                "escalacoes"
+            ]=> int(80601)
+        }
+    }
+}
