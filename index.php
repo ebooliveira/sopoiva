@@ -131,18 +131,23 @@
                     <div class="card-header">
                         <ul class="nav nav-pills card-header-pills">
                             <li class="nav-item" role="presentation">
-                                <button class="nav-link active" data-bs-toggle="tab" id="confrontos-tab" type="button" data-bs-target="#confrontos" role="tab" aria-controls="confrontos" aria-selected="true">Confrontos</button>
-                            </li>
-                            <li class="nav-item" role="presentation">
-                                <button class="nav-link" data-bs-toggle="tab" id="maisescalados-tab" type="button" data-bs-target="#maisescalados" role="tab" aria-controls="maisescalados" aria-selected="false">Titulares</button>
-                            </li>
-                            <li class="nav-item" role="presentation">
-                                <button class="nav-link" data-bs-toggle="tab" id="reservas-tab" type="button" data-bs-target="#reservas" role="tab" aria-controls="reservas" aria-selected="false">Reservas</button>
-                            </li>
-                            <li class="nav-item" role="presentation">
-                                <button class="nav-link" data-bs-toggle="tab" id="capitao-tab" type="button" data-bs-target="#capitao" role="tab" aria-controls="capitao" aria-selected="false">Capitão</button>
+                                <button class="nav-link active" data-bs-toggle="tab" id="twitter-tab" type="button" data-bs-target="#twitter" role="tab" aria-controls="twitter" aria-selected="true">Twitter</button>
                             </li>
                         </ul>
+                    </div>
+                    <div class="card-body">
+                            <div class="tab-content" id="myTabPrincipal">
+                                <div class="tab-pane fade show active" id="twitter" role="tabpanel" aria-labelledby="twitter-tab">
+                                    <div>
+                                        <?php
+                                        require __DIR__  . '/Views/SearchTweet.php';
+                                        $twitter = Twitter($result);
+                                        echo $twitter;
+                                        ?>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
                 </div>
             </div>
         </div>
