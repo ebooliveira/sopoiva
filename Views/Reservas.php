@@ -99,8 +99,8 @@ function Reservas()
                             "count" => isset($todas['scout']['DD']) ? $todas['scout']['DD'] : 0
                         ),
                         "RB" => array(
-                            "acao" => "Roubada de bola", // Roubada de bola
-                            "pontos" => isset($todas['scout']['RB']) ? $todas['scout']['RB'] * 1.50 : 0,
+                            "acao" => "Desarme", // Roubada de bola
+                            "pontos" => isset($todas['scout']['RB']) ? $todas['scout']['RB'] * 1.20 : 0,
                             "count" => isset($todas['scout']['RB']) ? $todas['scout']['RB'] : 0
                         ),
                         "FC" => array(
@@ -115,17 +115,17 @@ function Reservas()
                         ),
                         "FF" => array(
                             "acao" => "Finalização para fora", // Finalização para fora
-                            "pontos" => isset($todas['scout']['FF']) ? $todas['scout']['FF'] * -0.80 : 0,
+                            "pontos" => isset($todas['scout']['FF']) ? $todas['scout']['FF'] * 0.80 : 0,
                             "count" => isset($todas['scout']['FF']) ? $todas['scout']['FF'] : 0
                         ),
                         "FS" => array(
                             "acao" => "Falta sofrida", // Falta sofrida
-                            "pontos" => isset($todas['scout']['FS']) ? $todas['scout']['FS'] * -0.50 : 0,
+                            "pontos" => isset($todas['scout']['FS']) ? $todas['scout']['FS'] * 0.50 : 0,
                             "count" => isset($todas['scout']['FS']) ? $todas['scout']['FS'] : 0
                         ),
                         "FT" => array(
                             "acao" => "Finalização na trave", // Finalização na trave
-                            "pontos" => isset($todas['scout']['FT']) ? $todas['scout']['FT'] * 1.50 : 0,
+                            "pontos" => isset($todas['scout']['FT']) ? $todas['scout']['FT'] * 3.00 : 0,
                             "count" => isset($todas['scout']['FT']) ? $todas['scout']['FT'] : 0
                         ),
                         "GC" => array(
@@ -193,18 +193,36 @@ function Reservas()
                     </h2>
                     <div id="collapseOne' . $ReservasMaisEscaladossubArray['Atleta']['atleta_id'] . '" class="accordion-collapse collapse" aria-labelledby="headingOne' . $ReservasMaisEscaladossubArray['Atleta']['atleta_id'] . '" data-bs-parent="#accordionExample' . $ReservasMaisEscaladossubArray['Atleta']['atleta_id'] . '">
                     <div class="accordion-body">
-                    <div class="row">                    
+                    <div class="row">
+                    <div class="col-6">
+                        <div class="row">
+                            <div class="col-12">
+                                <h5 class="card-title">' . $todas['nome'] . '</h5>
+                                <span class="badge bg-' . $coresPosicao_abreviacao . '">' . $ReservasMaisEscaladossubArray['posicao']  . ' - ' . $ReservasMaisEscaladossubArray['clube_nome'] . '</span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <p class="card-text">Preço: C$ ' . $todas['preco_num'] . '</p>
+                            </div>
+                                                    
+                            <p><b>Status: </b>'.$status_ico.''. $status_id .' </p>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="row">
+                            <div class="col-12">
+                                <img src="' . $foto . '"" class="rounded-circle" width="140" height="140" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <hr>                    
                         <div class="col-12">
-                        <p class="card-text"><b>'.'<img src="' . $ReservasMaisEscaladossubArray['escudo_clube'] . '" width="25" height="25" alt="..."> - '
-                        . $todas['apelido'] . '</b> - ' . '<span class="badge bg-warning text-dark"> C$ ' 
-                        . $todas['preco_num'] . '</span></p>
-                        <p><b>Status: </b>'.$status_ico.''. $status_id .' </p>
-                            <p class="card-text"><b>' . $ReservasMaisEscaladossubArray['clube_nome'] . ' - ' . $ReservasMaisEscaladossubArray['posicao'] . '</b></p>
-                            <button class="col-12" type="button" disabled>
+                                <button class="col-12" type="button" disabled>
                                 <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
                                 <span class="visually-hidden"></span>
                                 '.$MinValor.'
-                            </button>
+                                </button>
                             <table class="table table-bordered border-primary">
                                 <thead>
                                     <tr>

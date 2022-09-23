@@ -11,87 +11,138 @@
 
 <body>
     <main>
-        <div class="collapse" id="NavbarPrincipal">
-            <div class="bg-dark p-4">
-                <h5 class="text-white h4">Cartola FC - SoPoiva</h5>
-                <span class="text-muted">Tudo sobre o CartolaFC</span><br>
-                <span class="badge bg-success">Times Escalados: <?php require_once 'api/timesAtualRodada.php'; echo number_format($statusMercado['times_escalados'], 0, '.', '.') ?> </span>
-            </div>
-        </div>
-        <nav class="navbar navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#NavbarPrincipal" aria-controls="NavbarPrincipal" aria-expanded="false" aria-label="Toggle navigation">
+                <a class="navbar-brand" href="#">
+                    <img src="https://getbootstrap.com/docs/5.0/assets/brand/bootstrap-logo.svg" alt="" width="30" height="24" class="d-inline-block align-text-top">
+                    <?php
+                    require_once 'api/mercadoFecha.php';
+                    $mercado = MercadoFecha();
+                    echo $mercado;
+                    ?>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <?php
-                require_once 'api/mercadoFecha.php';
-                $mercado = MercadoFecha();
-                echo $mercado;
-                ?>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#"> <span class="badge bg-success"> <?php require_once 'api/api.php';
+                                                                                                    echo number_format($statusMercado['times_escalados'], 0, '.', '.') ?> Times Escalados</span> </a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Buscar Time" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Buscar</button>
+                    </form>
+                </div>
             </div>
-
         </nav>
-        <div class="container">
-            <br>
-            
-            <div class="row">
-                <div class="col-md-12">
-                    <div>
+        <br>
 
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                    <div class="card text-left">
+                        <div class="card-header">
+                            <ul class="nav nav-pills card-header-pills">
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link active" data-bs-toggle="tab" id="confrontos-tab" type="button" data-bs-target="#confrontos" role="tab" aria-controls="confrontos" aria-selected="true">#<?php echo $statusMercado['rodada_atual']; ?></button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" data-bs-toggle="tab" id="maisescalados-tab" type="button" data-bs-target="#maisescalados" role="tab" aria-controls="maisescalados" aria-selected="false">Titulares</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" data-bs-toggle="tab" id="reservas-tab" type="button" data-bs-target="#reservas" role="tab" aria-controls="reservas" aria-selected="false">Reservas</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" data-bs-toggle="tab" id="capitao-tab" type="button" data-bs-target="#capitao" role="tab" aria-controls="capitao" aria-selected="false">Capitão</button>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="card-body">
+                            <div class="tab-content" id="myTabContent">
+                                <div class="tab-pane fade show active" id="confrontos" role="tabpanel" aria-labelledby="confrontos-tab">
+                                    <div>
+                                        <?php
+                                        require __DIR__  . '/Views/Confrontos.php';
+                                        $times = Times();
+                                        echo $times;
+                                        ?>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="maisescalados" role="tabpanel" aria-labelledby="maisescalados-tab">
+
+                                    <div>
+                                        <?php
+                                        require __DIR__  . '/Views/maisescalados.php';
+                                        $melhor1 = MaisEscalados1();
+                                        echo $melhor1;
+                                        ?>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="reservas" role="tabpanel" aria-labelledby="reservas-tab">
+
+                                    <div class="col-12">
+                                        <?php
+                                        require __DIR__ . '/Views/reservas.php';
+                                        $reservas = Reservas();
+                                        echo $reservas;
+                                        ?>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="capitao" role="tabpanel" aria-labelledby="capitao-tab">
+
+                                    <div class="col-12">
+                                        <?php
+                                        require __DIR__ . '/Views/capitao.php';
+                                        $capitao = Capitao();
+                                        echo $capitao;
+                                        ?>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div> 
-            <div class="row ">
-                <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-                    <span class="d-block p-2 bg-success text-white">Mais Escalados!</span>
-                    <title>Escalados</title>
-                    <div  class="card border-success">
-                    <?php
-                    require_once 'views/MaisEscalados.php';
-                    // SE FUNÇÃO MAIS ESCALADOS ESTIVER OK, EXIBA. CASO CONTRÁRIO, EXIBA UMA MESAGEM DE ERRO.
-                    $melhor1 = MaisEscalados1();
-                    echo $melhor1;
-                    ?>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-                    <span class="d-block p-2 bg-primary text-white">Reservas!</span>
-                    <!--Chamar Função mais escalados-->
-                    <div  class="card border-primary">
-                    <?php
-                    require_once 'views/Reservas.php';
-                    $reservas = Reservas();
-                    echo $reservas;
-                    ?>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-12 col-sm-12 col-12">
-                    <div  class="card border-warning">
-                        <?php
-                        require_once 'Views/Capitao.php';
-                        ?>
-                        <span class="d-block p-2 bg-warning text-white">Capitães mais escalados!</span>
-                        <?php
-                        $CapitaoResult = Capitao();
-                        echo $CapitaoResult;
-                        ?>
-                    </div>
-                </div>
-            </div>
-            <br>
-            <div>
-                <div class="col-lg-4 col-md-12 col-sm-12 col-12">
-                    <div>
-                        <?php
-                        require_once 'api/timesAtualRodada.php';
-                        require_once 'Views/ConfrontosDaRodada.php';
-                        ?>
-                        <span class="d-block p-2 bg-success text-white">Rodada #<?php echo $statusMercado['rodada_atual'];?></span>
-                        <?php
-                        $Confrontos = ConfrontosDaRodada();
-                        echo $Confrontos;
-                        ?>
-                    </div>
+                <div class="col-lg-8 col-lg-8 col-md-6 col-sm-12 col-12">
+                    <div class="card-header">
+                        <ul class="nav nav-pills card-header-pills">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" data-bs-toggle="tab" id="confrontos-tab" type="button" data-bs-target="#confrontos" role="tab" aria-controls="confrontos" aria-selected="true">Confrontos</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" data-bs-toggle="tab" id="maisescalados-tab" type="button" data-bs-target="#maisescalados" role="tab" aria-controls="maisescalados" aria-selected="false">Titulares</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" data-bs-toggle="tab" id="reservas-tab" type="button" data-bs-target="#reservas" role="tab" aria-controls="reservas" aria-selected="false">Reservas</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" data-bs-toggle="tab" id="capitao-tab" type="button" data-bs-target="#capitao" role="tab" aria-controls="capitao" aria-selected="false">Capitão</button>
+                            </li>
+                        </ul>
                 </div>
             </div>
         </div>

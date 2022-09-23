@@ -37,7 +37,7 @@ function MercadoFecha()
         $data->format('d/m/Y H:i:s'); // Formata a data
         $hoje    = new \DateTime(); // Instancia a classe DateTime
         $intervalo = $hoje->diff($data); // Calcula a diferença entre a data de hoje e a data do fechamento do mercado
-
+ 
         //Função onload regressivo
         echo '<script type="text/javascript">';
         echo 'window.onload = function() {';
@@ -58,7 +58,7 @@ function MercadoFecha()
         echo '}';
         echo '</script>';
         
-        echo '<span class="badge bg-success">Mercado Aberto! Fecha em: <b id="demo"></b></span>';
+        echo '<span class="badge bg-success">Aberto! Fecha: <b id="demo"></b></span>';
         //Enviar Mensagem Telegram
         $StatusTelegramMercado = 'Mercado Aberto! Fecha em: ' . $data->format('d/m/Y H:i:s'); // Mensagem de status do mercado aberto com BG verde   
         $NotificaoTelegram = new NotificaoTelegram(); // Instancia a classe NotificaoTelegram
